@@ -1,7 +1,7 @@
 # Pilk's dotfiles
 
 These are my current dotfiles.
-A very minimalistic and clean look for hyprland. As well as my first ever rice 🤓
+A very clean look for hyprland. As well as my first ever rice 🤓
 
 Most of these original config files were made by other [people](https://github.com/PilkDrinker/dotfiles/edit/master/README.md#original-work) in the community and then alterted by me.
 A lot of the heavy work was made by [Stephan Raabe](https://github.com/mylinuxforwork) (ML4W) who made the inital dotfiles I edited.
