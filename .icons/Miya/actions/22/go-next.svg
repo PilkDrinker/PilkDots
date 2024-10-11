@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 22 22"
+   version="1.1"
+   id="svg6"
+   sodipodi:docname="go-next.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview8"
+     pagecolor="#c8c8c8"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="true"
+     inkscape:zoom="26.195092"
+     inkscape:cx="11.051689"
+     inkscape:cy="8.6275703"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6">
+    <inkscape:grid
+       type="xygrid"
+       id="grid825" />
+  </sodipodi:namedview>
+  <defs
+     id="defs3051">
+    <style
+       type="text/css"
+       id="current-color-scheme">
+      .ColorScheme-Text {
+        color:#363636;
+      }
+      </style>
+  </defs>
+  <path
+     style="fill:currentColor;fill-opacity:1;stroke:none"
+     d="M 7.707031,-18 7,-17.292969 l 6.125,6.125 L 14.292969,-10 13.125,-8.832031 7,-2.707031 7.707031,-2 l 6.125,-6.125 1.875,-1.875 -1.875,-1.875 -6.125,-6.125"
+     class="ColorScheme-Text"
+     id="path4" />
+  <g
+     id="g1523"
+     transform="matrix(-1,0,0,1,20,0.50000032)">
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.501961;paint-order:stroke fill markers"
+       id="rect849"
+       width="1"
+       height="11"
+       x="7.9343858"
+       y="-4.0857863"
+       ry="0.5"
+       transform="rotate(45)" />
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.501961;paint-order:stroke fill markers"
+       id="rect1417"
+       width="1"
+       height="11"
+       x="-6.9148564"
+       y="-18.935028"
+       ry="0.5"
+       transform="matrix(0.70710678,-0.70710678,-0.70710678,-0.70710678,0,0)" />
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:1.17055;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.501961;paint-order:stroke fill markers"
+       id="rect1419"
+       width="1"
+       height="15.071977"
+       x="-11"
+       y="-16"
+       ry="0.5"
+       transform="matrix(0,-1,-1,0,0,0)" />
+  </g>
+</svg>

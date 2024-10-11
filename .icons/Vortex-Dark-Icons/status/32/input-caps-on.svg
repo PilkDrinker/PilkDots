@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" width="32" height="32">
+    <style type="text/css" id="current-color-scheme">.ColorScheme-Text {
+        color:#fcfcfc;
+      }
+      .ColorScheme-Background {
+        color:#eff0f1;
+      }
+      .ColorScheme-Highlight {
+        color:#3daee9;
+      }
+      .ColorScheme-ViewText {
+        color:#31363b;
+      }
+      .ColorScheme-ViewBackground {
+        color:#fcfcfc;
+      }
+      .ColorScheme-ViewHover {
+        color:#93cee9;
+      }
+      .ColorScheme-ViewFocus{
+        color:#3daee9;
+      }
+      .ColorScheme-ButtonText {
+        color:#31363b;
+      }
+      .ColorScheme-ButtonBackground {
+        color:#eff0f1;
+      }
+      .ColorScheme-ButtonHover {
+        color:#93cee9;
+      }
+      .ColorScheme-ButtonFocus{
+        color:#3daee9;
+      }</style>
+    <g id="input-caps-on" transform="translate(19,48.000003) translate(-38,-160)">
+        <rect x="19" y="112" width="32" height="32" opacity=".00100002"/>
+        <path class="ColorScheme-Text" d="m 25,120 v 16 l 10,4 10,-4 v -16 c 0,0 0,-4 -4,-4 -4,0 -8,0 -12,0 -4,0 -4,4 -4,4 z m 1,0 c 0,0 0,-3 3,-3 3,0 9,0 12,0 3,0 3,3 3,3 v 10 c 0,0 0,3 -3,3 -3,0 -9,0 -12,0 -3,0 -3,-3 -3,-3 z m 8.40625,0 L 30,130 h 1.30078 l 1.32227,-3 h 4.72265 l 1.34961,3 H 40 l -4.5,-10 z m 0.55273,1.69531 L 36.89648,126 H 33.0625 Z M 26,134 h 18 v 1 H 26 Z" fill="currentColor"/>
+    </g>
+</svg>

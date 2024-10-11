@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient111568" x1="134.76" x2="215.34" y1="28.402" y2="28.402" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#5458eb" offset="0"/>
+   <stop stop-color="#8e53ea" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient143568" x1="171.19" x2="215.34" y1="28.402" y2="28.402" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#5458eb" offset="0"/>
+   <stop stop-color="#bd52eb" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient147299" x1="157.61" x2="215.34" y1="28.402" y2="28.402" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#6357eb" offset="0"/>
+   <stop stop-color="#8d53ea" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g transform="matrix(.79422 0 0 .79422 -107.03 9.4433)">
+  <path d="m181.82 28.074-8.2168 5.8359 21.85 15.689h-51.199v-13.945l13.609 9.4336 0.35937-11.082-20.312-14.859h-3.1484v30.031s-0.42308 9.4707 8.6406 9.4707h64.072s5.5389-0.04175 7.293-6.5879z" fill="url(#linearGradient111568)"/>
+  <path d="m146.8-1.8438s-8.4144-0.39412-10.854 8.709l29.857 21.441 8.0352-6.043-18.83-13.711h50.844v25.404l9.4551 7.5801v-33.906s1.2742-9.4746-11.746-9.4746z" fill="url(#linearGradient143568)"/>
+  <path d="m162.87 26.203 8.189-5.9603 14.849 10.81-8.3992 5.6643z" fill="#2b3993"/>
+  <path d="m173.84 22.264-8.0352 6.043-7.5801 5.6992-0.35937 11.082 15.74-11.178 8.2168-5.8359 8.1797-5.8086 0.0273-4.6387h-10.023l-6.1641 4.6367z" fill="url(#linearGradient147299)"/>
+  <path d="m181.82 28.074-8.2168 5.8359 21.85 15.689h-51.199v-13.945l13.609 9.4336 0.35937-11.082-20.312-14.859h-3.1484v30.031s-0.42308 9.4707 8.6406 9.4707h64.072s5.5389-0.04175 7.293-6.5879z" fill="url(#linearGradient111568)"/>
+  <path d="m146.8-1.8438s-8.4144-0.39412-10.854 8.709l29.857 21.441 8.0352-6.043-18.83-13.711h50.844v25.404l9.4551 7.5801v-33.906s1.2742-9.4746-11.746-9.4746z" fill="url(#linearGradient143568)"/>
+  <path d="m162.87 26.203 8.189-5.9603 14.849 10.81-8.3992 5.6643z" fill="#2b3993"/>
+  <path d="m173.84 22.264-8.0352 6.043-7.5801 5.6992-0.35937 11.082 15.74-11.178 8.2168-5.8359 8.1797-5.8086 0.0273-4.6387h-10.023l-6.1641 4.6367z" fill="url(#linearGradient147299)"/>
+ </g>
+</svg>

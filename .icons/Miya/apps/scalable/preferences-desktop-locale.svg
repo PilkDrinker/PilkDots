@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient12903" x1="33.123" x2="33.123" y1="27.438" y2="58.836" gradientTransform="translate(71.615)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#00beff" offset="0"/>
+   <stop stop-color="#008cc8" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient13381" x1="33.123" x2="33.123" y1="9.9451" y2="58.836" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#f100ff" offset="0"/>
+   <stop stop-color="#00e5e3" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient18620" x1="33.123" x2="33.123" y1="20.915" y2="42.207" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#f100ff" offset="0"/>
+   <stop stop-color="#00e5e3" offset="1"/>
+  </linearGradient>
+ </defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="matrix(3.7796 0 0 3.7796 7.2403 -10.983)" fill="#5e4aa6" stroke-width=".26458">
+  <circle cx="-330.35" cy="-328.38" r="0"/>
+  <circle cx="-312.11" cy="-326.25" r="0"/>
+  <circle cx="-306.02" cy="-333.07" r="0"/>
+  <circle cx="-308.84" cy="-326.01" r="0"/>
+ </g>
+ <path d="m11.439 3c-4.6105 0-8.3223 3.7118-8.3223 8.3223v29.568c0 4.6105 3.7118 8.3223 8.3223 8.3223h6.2053l6.1336 7.8608 0.0105 0.01436c4.1228 5.2159 12.333 5.2159 16.456 0l0.0105-0.01436 6.1315-7.8608h6.1746c4.6105 0 8.3223-3.7118 8.3223-8.3223v-29.568c0-4.6105-3.7118-8.3223-8.3223-8.3223zm21.092 6.7961a19.074 19.074 0 0 1 18.374 18.641c0.06029 4.3428-1.5393 7.7376-3.9489 11.5l-0.07793 0.10462-10.755 13.789a5.2354 5.2354 0 0 1-8.2136 0l-10.827-13.877c-2.6451-4.0197-3.9878-7.8091-3.9878-11.254a18.91 18.91 0 0 1 19.437-18.903z" fill="url(#linearGradient13381)" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.1902" style="paint-order:stroke fill markers"/>
+ <path d="m32 20.042a8.6581 8.6581 0 1 0 8.6581 8.6581 8.6691 8.6691 0 0 0-8.6581-8.6581zm5.0054 8.6581a5.0054 5.0054 0 1 1-5.0054-5.0054 5.0109 5.0109 0 0 1 5.0054 5.0054z" fill="url(#linearGradient18620)" stroke-width=".044953" p-id="3113"/>
+ <circle cx="103.62" cy="28.7" r="8.6581" fill="url(#linearGradient12903)" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.8379" style="paint-order:stroke fill markers"/>
+</svg>

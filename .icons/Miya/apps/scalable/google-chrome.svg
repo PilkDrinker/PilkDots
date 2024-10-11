@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <linearGradient id="linearGradient3472" x1="14.759" x2="42.589" y1="29.001" y2="18.067" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#ec3b2d" offset="0"/>
+   <stop stop-color="#fecd00" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient9272" x1="14.781" x2="38.109" y1="29.039" y2="48.399" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#ec3b2d" offset="0"/>
+   <stop stop-color="#30ae31" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient14258" x1="38.109" x2="42.589" y1="48.399" y2="18.067" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#30ae31" offset="0"/>
+   <stop stop-color="#fecd00" offset="1"/>
+  </linearGradient>
+  <radialGradient id="radialGradient22808" cx="32" cy="32" r="10" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#9fcdff" offset="0"/>
+   <stop stop-color="#428dff" offset="1"/>
+  </radialGradient>
+ </defs>
+ <path d="M 32,2 A 30,30 0 0 0 2,32 30,30 0 0 0 32,62 30,30 0 0 0 62,32 30,30 0 0 0 32,2 Z m 0,12.5 A 17.5,17.5 0 0 1 49.5,32 17.5,17.5 0 0 1 32,49.5 17.5,17.5 0 0 1 14.5,32 17.5,17.5 0 0 1 32,14.5 Z" fill="url(#linearGradient9272)"/>
+ <path d="m51.248 8.998c-3.2667 0.7779-12.938 3.1703-18.951 5.5098a17.5 17.5 0 0 1 17.203 17.492 17.5 17.5 0 0 1-11.355 16.338l-8.0703 13.566a30 30 0 0 0 1.9238 0.0957 30 30 0 0 0 30-30 30 30 0 0 0-10.748-23.002h-2e-3z" fill="url(#linearGradient14258)"/>
+ <path d="m32 2a30 30 0 0 0-25.15 13.697l7.9316 13.342a17.5 17.5 0 0 1 17.219-14.539 17.5 17.5 0 0 1 10.582 3.5684l15.908-0.10547a30 30 0 0 0-26.49-15.963z" fill="url(#linearGradient3472)" stroke-width=".99998"/>
+ <g transform="matrix(3.7796 0 0 3.7796 71.49 11.957)" fill="#5e4aa6" stroke-width=".26458">
+  <circle cx="-330.35" cy="-328.38" r="0"/>
+  <circle cx="-312.11" cy="-326.25" r="0"/>
+  <circle cx="-306.02" cy="-333.07" r="0"/>
+  <circle cx="-308.84" cy="-326.01" r="0"/>
+ </g>
+ <circle cx="32" cy="32" r="10" fill="url(#radialGradient22808)" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-width=".78413" style="paint-order:stroke fill markers"/>
+</svg>

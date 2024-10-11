@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" version="1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient18235" x1="-42.856" x2="-42.856" y1="36.222" y2="6.4276" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#3abb82" offset="0"/>
+   <stop stop-color="#66be4c" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient37867" x1="54" x2="54" y1="25" y2="46" gradientTransform="translate(-21.5)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#82d8b0" offset="0"/>
+   <stop stop-color="#3bbb83" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g transform="translate(71.723 -1.373)">
+  <path d="m-57.723 6.4277c-1.6568 1.657e-4 -2.9998 1.3432-3 3v48c1.66e-4 1.6568 1.3432 2.9998 3 3h36c1.6568-1.66e-4 2.9998-1.3432 3-3v-26.832a2.9974 2.9974 0 0 0 0-2e-3 2.9974 2.9974 0 0 0-2.998-2.9941 2.9974 2.9974 0 0 0-2.9961 2.9941h-0.0059v23.834h-30v-42h11.867v-0.0059a2.9974 2.9974 0 0 0 2.9961-2.9961 2.9974 2.9974 0 0 0-2.9961-2.998z" color="#000000" fill="url(#linearGradient18235)" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none"/>
+  <path d="m-32.895 6.3184a3.0003 3.0003 0 0 0-2.1211 5.1211l11.172 11.172a3.0003 3.0003 0 0 0 5.1211-2.1211v-11.172a3.0003 3.0003 0 0 0-3-3z" color="#000000" fill="#41b847" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none"/>
+ </g>
+ <path d="m24.199 25c-2.3268 0-4.1992 1.8724-4.1992 4.1992v12.602c0 2.3268 1.8724 4.1992 4.1992 4.1992h15.602c2.3268 0 4.1992-1.8724 4.1992-4.1992v-12.602c0-2.3268-1.8724-4.1992-4.1992-4.1992zm0.30078 3h5c0.831 0 1.5 0.669 1.5 1.5s-0.669 1.5-1.5 1.5h-5c-0.831 0-1.5-0.669-1.5-1.5s0.669-1.5 1.5-1.5zm10 0h5c0.831 0 1.5 0.669 1.5 1.5s-0.669 1.5-1.5 1.5h-5c-0.831 0-1.5-0.669-1.5-1.5s0.669-1.5 1.5-1.5zm-10 6h5c0.831 0 1.5 0.669 1.5 1.5s-0.669 1.5-1.5 1.5h-5c-0.831 0-1.5-0.669-1.5-1.5s0.669-1.5 1.5-1.5zm10 0h5c0.831 0 1.5 0.669 1.5 1.5s-0.669 1.5-1.5 1.5h-5c-0.831 0-1.5-0.669-1.5-1.5s0.669-1.5 1.5-1.5zm-10 6h5c0.831 0 1.5 0.669 1.5 1.5s-0.669 1.5-1.5 1.5h-5c-0.831 0-1.5-0.669-1.5-1.5s0.669-1.5 1.5-1.5zm10 0h5c0.831 0 1.5 0.669 1.5 1.5s-0.669 1.5-1.5 1.5h-5c-0.831 0-1.5-0.669-1.5-1.5s0.669-1.5 1.5-1.5z" fill="url(#linearGradient37867)" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0042" style="font-variation-settings:'wght' 700;paint-order:stroke fill markers"/>
+</svg>

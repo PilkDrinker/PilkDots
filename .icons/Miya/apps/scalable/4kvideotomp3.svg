@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css"/>
+  <linearGradient id="linearGradient932" x1="32.014" x2="32.014" y1="48.181" y2="11.537" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#6619ff" offset="0"/>
+   <stop stop-color="#b365ff" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient978" x1="32" x2="32" y1="29.887" y2="52.08" gradientTransform="translate(.50641 -2.0639)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#b365ff" offset="0"/>
+   <stop stop-color="#844cf8" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g transform="matrix(1.2667 0 0 1.2667 -8.5333 -6.9313)">
+  <path d="m45.878 30.786v-1.9138c0-7.3988-5.9979-13.397-13.397-13.397-7.3988 0-13.397 5.9979-13.397 13.397v19.138h-0.95691c-9.6891 0.008276-12.009-13.513-2.8707-16.734v-2.4037c0-9.5126 7.7117-17.224 17.224-17.224 9.5126 0 17.224 7.7117 17.224 17.224v2.8095c7.702 3.8181 5.6727 15.324-2.8707 16.277v0.05165l-0.95691 2.7e-5z" fill="url(#linearGradient932)" p-id="8838"/>
+  <path d="m32.506 27.823a11 11 0 0 0-11 11 11 11 0 0 0 11 11 11 11 0 0 0 11-11 11 11 0 0 0-11-11zm0 3.3008a2.5667 2.5667 0 0 1 2.5664 2.5664 2.5667 2.5667 0 0 1-2.5664 2.5664 2.5667 2.5667 0 0 1-2.5664-2.5664 2.5667 2.5667 0 0 1 2.5664-2.5664zm-5.1328 5.1328a2.5667 2.5667 0 0 1 2.5664 2.5664 2.5667 2.5667 0 0 1-2.5664 2.5684 2.5667 2.5667 0 0 1-2.5664-2.5684 2.5667 2.5667 0 0 1 2.5664-2.5664zm10.266 0a2.5667 2.5667 0 0 1 2.5664 2.5664 2.5667 2.5667 0 0 1-2.5664 2.5684 2.5667 2.5667 0 0 1-2.5664-2.5684 2.5667 2.5667 0 0 1 2.5664-2.5664zm-5.1328 1.834a0.73333 0.73333 0 0 1 0.73242 0.73242 0.73333 0.73333 0 0 1-0.73242 0.73438 0.73333 0.73333 0 0 1-0.73242-0.73438 0.73333 0.73333 0 0 1 0.73242-0.73242zm0 3.3008a2.5667 2.5667 0 0 1 2.5664 2.5664 2.5667 2.5667 0 0 1-2.5664 2.5664 2.5667 2.5667 0 0 1-2.5664-2.5664 2.5667 2.5667 0 0 1 2.5664-2.5664z" fill="url(#linearGradient978)"/>
+ </g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="64" height="64" version="1.1" viewBox="0 0 16.933 16.933" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(-35.373 1.5332)" fill-rule="evenodd" stroke-linejoin="round" stroke-width="2.5554">
+  <path transform="scale(.26458)" d="m193.2 37.377h-16.328v16.328c9.046 0 16.328-7.2821 16.328-16.328z" fill="#6252f0" style="paint-order:stroke fill markers"/>
+  <path transform="scale(.26458)" d="m176.87 18.033v16.344h16.328v-16.344z" fill="#c36dec" style="paint-order:stroke fill markers"/>
+  <path transform="scale(.26458)" d="m176.87-1.2949v16.328h16.328c0-9.046-7.2821-16.328-16.328-16.328z" fill="#ff6adf" style="paint-order:stroke fill markers"/>
+  <path transform="scale(.26458)" d="m173.87 37.377h-16.344v16.328h16.344z" fill="#4c7df0" style="paint-order:stroke fill markers"/>
+  <path transform="scale(.26458)" d="m157.52 18.033v16.344h16.344v-16.344z" fill="#7892ee" style="paint-order:stroke fill markers"/>
+  <path transform="scale(.26458)" d="m157.52-1.2949v16.328h16.344v-16.328z" fill="#a7a7ed" style="paint-order:stroke fill markers"/>
+  <path transform="scale(.26458)" d="m154.52 37.377h-16.328c0 9.046 7.2821 16.328 16.328 16.328z" fill="#2ca7ef" style="paint-order:stroke fill markers"/>
+  <path transform="scale(.26458)" d="m138.2 18.033v16.344h16.328v-16.344z" fill="#3dc5f7" style="paint-order:stroke fill markers"/>
+  <path transform="scale(.26458)" d="m154.52-1.2949c-9.046 0-16.328 7.2821-16.328 16.328h16.328z" fill="#4de3fc" style="paint-order:stroke fill markers"/>
+ </g>
+</svg>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" version="1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient18235" x1="-42.856" x2="-42.856" y1="36.222" y2="6.4276" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#f3712d" offset="0"/>
+   <stop stop-color="#f17b3a" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient17533" x1="25.348" x2="25.348" y1="27.96" y2="43.304" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#f79d6e" offset="0"/>
+   <stop stop-color="#f3712d" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient23942" x1="38.39" x2="38.39" y1="29.218" y2="43.225" gradientTransform="matrix(1 0 0 1.5 0 -20.647)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#f79c6d" offset="0"/>
+   <stop stop-color="#f3712d" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient23944" x1="38.39" x2="38.39" y1="29.218" y2="43.225" gradientTransform="matrix(1 0 0 1.5 0 -17.647)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#f79c6d" offset="0"/>
+   <stop stop-color="#f3712d" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient23946" x1="38.39" x2="38.39" y1="29.218" y2="43.225" gradientTransform="matrix(1 0 0 1.5 0 -14.647)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#f79c6d" offset="0"/>
+   <stop stop-color="#f3712d" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g transform="translate(71.723 -1.373)">
+  <path d="m-57.723 6.4277c-1.6568 1.657e-4 -2.9998 1.3432-3 3v48c1.66e-4 1.6568 1.3432 2.9998 3 3h36c1.6568-1.66e-4 2.9998-1.3432 3-3v-26.832a2.9974 2.9974 0 0 0 0-2e-3 2.9974 2.9974 0 0 0-2.998-2.9941 2.9974 2.9974 0 0 0-2.9961 2.9941h-0.0059v23.834h-30v-42h11.867v-0.0059a2.9974 2.9974 0 0 0 2.9961-2.9961 2.9974 2.9974 0 0 0-2.9961-2.998z" color="#000000" fill="url(#linearGradient18235)" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none"/>
+  <path d="m-32.895 6.3184a3.0003 3.0003 0 0 0-2.1211 5.1211l11.172 11.172a3.0003 3.0003 0 0 0 5.1211-2.1211v-11.172a3.0003 3.0003 0 0 0-3-3z" color="#000000" fill="#e27421" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none"/>
+ </g>
+ <g transform="translate(-.016374 -.5)">
+  <path d="m25.348 27.96c-2.9456 0-5.3334 2.3878-5.3334 5.3334s2.3878 5.3334 5.3334 5.3334c2.9456 0 5.3334-2.3878 5.3334-5.3334h-5.334z" fill="url(#linearGradient17533)"/>
+  <g fill-rule="evenodd">
+   <rect x="33.348" y="29.294" width="10.637" height="3" ry="1.5" fill="url(#linearGradient23946)" style="font-variation-settings:'wght' 700;paint-order:stroke fill markers"/>
+   <rect x="33.348" y="35.294" width="10.637" height="3" ry="1.5" fill="url(#linearGradient23944)" style="font-variation-settings:'wght' 700;paint-order:stroke fill markers"/>
+   <rect x="21.348" y="41.294" width="22.67" height="3" ry="1.5" fill="url(#linearGradient23942)" style="font-variation-settings:'wght' 700;paint-order:stroke fill markers"/>
+  </g>
+ </g>
+</svg>

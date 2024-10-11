@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" version="1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient18235" x1="-42.856" x2="-42.856" y1="36.222" y2="6.4276" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#1f94d2" offset="0"/>
+   <stop stop-color="#43b4e6" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient12534" x1="31.592" x2="31.592" y1="25.597" y2="45.622" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#64bae7" offset="0"/>
+   <stop stop-color="#1f94d2" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g transform="translate(71.723 -1.373)">
+  <path d="m-57.723 6.4277c-1.6568 1.657e-4 -2.9998 1.3432-3 3v48c1.66e-4 1.6568 1.3432 2.9998 3 3h36c1.6568-1.66e-4 2.9998-1.3432 3-3v-26.832a2.9974 2.9974 0 0 0 0-2e-3 2.9974 2.9974 0 0 0-2.998-2.9941 2.9974 2.9974 0 0 0-2.9961 2.9941h-0.0059v23.834h-30v-42h11.867v-0.0059a2.9974 2.9974 0 0 0 2.9961-2.9961 2.9974 2.9974 0 0 0-2.9961-2.998z" color="#000000" fill="url(#linearGradient18235)" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none"/>
+  <path d="m-32.895 6.3184a3.0003 3.0003 0 0 0-2.1211 5.1211l11.172 11.172a3.0003 3.0003 0 0 0 5.1211-2.1211v-11.172a3.0003 3.0003 0 0 0-3-3z" color="#000000" fill="#2094d2" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none"/>
+ </g>
+ <g fill="url(#linearGradient12534)" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-width=".98">
+  <rect x="20" y="25.627" width="24" height="2" ry="1" style="font-variation-settings:'wght' 700;paint-order:stroke fill markers"/>
+  <rect x="20" y="31.627" width="24" height="2" ry="1" style="font-variation-settings:'wght' 700;paint-order:stroke fill markers"/>
+  <rect x="20" y="37.627" width="24" height="2" ry="1" style="font-variation-settings:'wght' 700;paint-order:stroke fill markers"/>
+  <rect x="20" y="43.627" width="16" height="2" ry="1" style="font-variation-settings:'wght' 700;paint-order:stroke fill markers"/>
+ </g>
+</svg>

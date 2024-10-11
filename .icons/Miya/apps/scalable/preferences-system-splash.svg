@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Apps-Visual-Studio-Code" width="64" height="64" enable-background="new 0 0 1024 1024" image-rendering="optimizeSpeed" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css"/>
+  <style type="text/css"/>
+  <linearGradient id="linearGradient2509" x1="32" x2="32" y1="8.7383" y2="54.724" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#3ddee5" offset="0"/>
+   <stop stop-color="#0870be" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient60484" x1="32" x2="32" y1="8.7383" y2="54.645" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#eaf7fb" offset="0"/>
+   <stop stop-color="#57ccff" offset="1"/>
+  </linearGradient>
+ </defs>
+ <path d="m32 8.7383c-1.662 0-3 1.338-3 3v11.309c0 1.662 1.338 3 3 3s3-1.338 3-3v-11.309c0-1.662-1.338-3-3-3zm9.2676 7.1895c-1.662 0-3 1.338-3 3v7.2129c0 1.662 1.338 3 3 3s3-1.338 3-3v-7.2129c0-1.662-1.338-3-3-3zm-18.535 0.08594c-1.662 0-3 1.338-3 3v7.1309c0 1.662 1.338 3 3 3s3-1.338 3-3v-7.1309c0-1.662-1.338-3-3-3zm-9.2656 7.1914c-1.662 0-3 1.338-3 3v11.59c0 1.662 1.338 3 3 3s3-1.338 3-3v-11.59c0-1.662-1.338-3-3-3zm37.066 0.07422c-1.662 0-3 1.338-3 3v11.441c0 1.662 1.338 3 3 3s3-1.338 3-3v-11.441c0-1.662-1.338-3-3-3zm-9.2656 11.275c-1.662 0-3 1.338-3 3v7.5176c0 1.662 1.338 3 3 3s3-1.338 3-3v-7.5176c0-1.662-1.338-3-3-3zm-18.535 0.20703c-1.662 0-3 1.338-3 3v7.2246c0 1.662 1.338 3 3 3s3-1.338 3-3v-7.2246c0-1.662-1.338-3-3-3zm9.2676 3.2246c-1.662 0-3 1.338-3 3v11.275c0 1.662 1.338 3 3 3s3-1.338 3-3v-11.275c0-1.662-1.338-3-3-3z" fill="url(#linearGradient2509)" fill-rule="evenodd" stroke-linejoin="round" stroke-width=".8659" style="paint-order:stroke fill markers"/>
+ <path d="m32 8.7383c-1.662 0-3 1.338-3 3v2.5059c0 1.662 1.338 3 3 3s3-1.338 3-3v-2.5059c0-1.662-1.338-3-3-3zm-9.2676 7.2754c-1.662 0-3 1.338-3 3v0.57227c0 1.662 1.338 3 3 3s3-1.338 3-3v-0.57227c0-1.662-1.338-3-3-3zm-9.2656 7.1914c-1.662 0-3 1.338-3 3v1.8496c0 1.662 1.338 3 3 3s3-1.338 3-3v-1.8496c0-1.662-1.338-3-3-3zm-9.2676 4.8574c-1.662 0-3 1.338-3 3v1.875c0 1.662 1.338 3 3 3s3-1.338 3-3v-1.875c0-1.662-1.338-3-3-3zm55.602 0.03711c-1.662 0-3 1.338-3 3v1.8008c0 1.662 1.338 3 3 3s3-1.338 3-3v-1.8008c0-1.662-1.338-3-3-3zm-9.2676 2.875c-1.662 0-3 1.338-3 3v3.7461c0 1.662 1.338 3 3 3s3-1.338 3-3v-3.7461c0-1.662-1.338-3-3-3zm-27.801 9.543c-1.662 0-3 1.338-3 3v1.4688c0 1.662 1.338 3 3 3s3-1.338 3-3v-1.4688c0-1.662-1.338-3-3-3zm18.535 0.23047c-1.662 0-3 1.338-3 3v1.3242c0 1.662 1.338 3 3 3s3-1.338 3-3v-1.3242c0-1.662-1.338-3-3-3zm-9.2676 5.1016c-1.662 0-3 1.338-3 3v3.4121c0 1.662 1.338 3 3 3s3-1.338 3-3v-3.4121c0-1.662-1.338-3-3-3z" fill="url(#linearGradient60484)" fill-rule="evenodd" stroke-linejoin="round" stroke-width=".57935" style="paint-order:stroke fill markers"/>
+</svg>
