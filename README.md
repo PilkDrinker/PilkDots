@@ -3,11 +3,16 @@
 These are my current dotfiles.
 A very minimalistic and clean look for hyprland. As well as my first ever rice 🤓
 
-### Contents
-
-
 Most of these original config files were made by other people in the community and then alterted by me.
 A lot of the heavy work was made by [Stephan Raabe](https://github.com/mylinuxforwork) (ML4W) who made the inital dotfiles I edited.
+
+### Contents
+- [Depenedcies](https://github.com/PilkDrinker/dotfiles/blob/master/README.md#depenedcies)
+- [Installation](https://github.com/PilkDrinker/dotfiles/blob/master/README.md#installation)
+- [Extra configuration](https://github.com/PilkDrinker/dotfiles/blob/master/README.md#extra-configuration)
+- [Original work](https://github.com/PilkDrinker/dotfiles/blob/master/README.md#original-work)
+
+
 ## Screenshots
 ![alt text](https://github.com/PilkDrinker/dotfiles/blob/master/screenshots/screenshot1.png?raw=true)
 
