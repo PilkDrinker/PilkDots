@@ -15,13 +15,15 @@ A lot of the heavy work was made by [Stephan Raabe](https://github.com/mylinuxfo
 
 ## Screenshots
 
+### ![alt text](https://github.com/PilkDrinker/dotfiles/blob/master/screenshots/Screenshot1.png)
+
+### ![alt text](https://github.com/PilkDrinker/dotfiles/blob/master/screenshots/Screenshot2.png)
+
 ### ![alt text](https://github.com/PilkDrinker/dotfiles/blob/master/screenshots/sc2.gif)
 
 ### ![alt text](https://github.com/PilkDrinker/dotfiles/blob/master/screenshots/sc1.gif)
 
-### ![alt text](https://github.com/PilkDrinker/dotfiles/blob/master/screenshots/Screenshot1.png)
 
-### ![alt text](https://github.com/PilkDrinker/dotfiles/blob/master/screenshots/Screenshot2.png)
 
 ## Depenedcies
 - hyprland
