@@ -6,6 +6,12 @@ Most of these configs were made by other people in the community and then altert
 Most of the heavy work was made by [ML4W](https://github.com/mylinuxforwork)
 
 
+![alt text](https://github.com/PilkDrinker/dotfiles/blob/master/screenshots/screenshot1.png?raw=true)
+
+![alt text](https://github.com/PilkDrinker/dotfiles/blob/master/screenshots/screenshot2.png?raw=true)
+
+![alt text](https://github.com/PilkDrinker/dotfiles/blob/master/screenshots/screenshot3.png?raw=true)
+
 **Depenedcies**
 - hyprland
 - hyprshot
