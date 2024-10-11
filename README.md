@@ -1,18 +1,18 @@
-# PilkDrinkers dotfiles
+# Pilkdots
 These are my current dotfiles.
-A very minimalistic and clean look for hyprland.
+A very minimalistic and clean look for hyprland. As well as my first ever rice 🤓
 
-Most of these configs were made by other people in the community and then alterted by me.
-Most of the heavy work was made by [ML4W](https://github.com/mylinuxforwork)
+Most of these original config files were made by other people in the community and then alterted by me.
+A lot of the heavy work was made by [Stephan Raabe](https://github.com/mylinuxforwork) (ML4W) who made the inital dotfiles I edited.
 
-
+## Screenshots
 ![alt text](https://github.com/PilkDrinker/dotfiles/blob/master/screenshots/screenshot1.png?raw=true)
 
 ![alt text](https://github.com/PilkDrinker/dotfiles/blob/master/screenshots/screenshot2.png?raw=true)
 
 ![alt text](https://github.com/PilkDrinker/dotfiles/blob/master/screenshots/screenshot3.png?raw=true)
 
-**Depenedcies**
+## Depenedcies
 - hyprland
 - hyprshot
 - wlogout
@@ -30,9 +30,15 @@ Most of the heavy work was made by [ML4W](https://github.com/mylinuxforwork)
 - fastfetch
 - zsh
 - oh-my-zsh-git
-
-**Optional Packages**
-- quich (calculator)
 - btop
 - cava
-- DroidSansMNerdFont (for kitty)
+- DroidSansMNerdFont
+
+# Installation
+1. Install depenedcies with your preffered AUR helper.
+2. Clone Repo
+3. Move the .config .icons .themes wallpaper into your home directory
+4. Install the font
+5. Set up ZSH
+6. Change your GTK theme (Using GTK-look/nwg-look or the terminal)
+
