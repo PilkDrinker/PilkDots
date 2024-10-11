@@ -1,9 +1,9 @@
-# Pilkdots
+# Pilk's dotfiles
 
 These are my current dotfiles.
 A very minimalistic and clean look for hyprland. As well as my first ever rice 🤓
 
-Most of these original config files were made by other people in the community and then alterted by me.
+Most of these original config files were made by other [people](https://github.com/PilkDrinker/dotfiles/edit/master/README.md#original-work) in the community and then alterted by me.
 A lot of the heavy work was made by [Stephan Raabe](https://github.com/mylinuxforwork) (ML4W) who made the inital dotfiles I edited.
 
 ### Contents
@@ -14,11 +14,15 @@ A lot of the heavy work was made by [Stephan Raabe](https://github.com/mylinuxfo
 
 
 ## Screenshots
-![alt text](https://github.com/PilkDrinker/dotfiles/blob/master/screenshots/screenshot1.png?raw=true)
 
-![alt text](https://github.com/PilkDrinker/dotfiles/blob/master/screenshots/screenshot2.png?raw=true)
+### ![alt text](https://github.com/PilkDrinker/dotfiles/blob/master/screenshots/sc2.gif)
 
-![alt text](https://github.com/PilkDrinker/dotfiles/blob/master/screenshots/screenshot3.png?raw=true)
+### ![alt text](https://github.com/PilkDrinker/dotfiles/blob/master/screenshots/sc1.gif)
+
+### ![alt text](https://github.com/PilkDrinker/dotfiles/blob/master/screenshots/Screenshot1.png)
+
+### ![alt text](https://github.com/PilkDrinker/dotfiles/blob/master/screenshots/Screenshot2.png)
+
 
 ## Depenedcies
 - hyprland
