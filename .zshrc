@@ -18,8 +18,6 @@ alias uninstall='sudo pacman -R'
 alias update='sudo pacman -Syu'
 alias fucking='sudo'
 alias home='cd ~'
-alias rplasma='systemctl --user restart plasma-plasmashell'
-alias update-grub='sudo grub-mkconfig -o /boot/grub/grub.cfg'
 # source ~/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # source ~/.oh-my-zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 eval "$(starship init zsh)"

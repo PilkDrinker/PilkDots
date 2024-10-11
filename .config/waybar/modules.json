@@ -261,6 +261,7 @@
     "custom/playerpause": {
         "format": "⏯︎",
         "on-click": "playerctl play-pause",
+        "tooltip": false,
 
     // WaybarMedia
     },
