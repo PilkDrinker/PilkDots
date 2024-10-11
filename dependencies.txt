@@ -4,6 +4,7 @@ waypaper
 waybar
 swww
 rofi
+swaync
 thunar
 kitty
 pavucontrols

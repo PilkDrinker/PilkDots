@@ -10,5 +10,6 @@ Meta + F     =  Fullscreen
 Meta + L     =  Hyprlock
 Meta + W     =  Waypaper
 Meta + B     =  Firefox
+MEta + I     =  Reload waybar
 printscreen  =  Screenshot Display to clipboard
 Meta + Printscreen = Screenshot a region to clipboard

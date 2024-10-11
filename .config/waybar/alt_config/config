@@ -1,0 +1,78 @@
+// __        __          _                 
+// \ \      / /_ _ _   _| |__   __ _ _ __  
+//  \ \ /\ / / _` | | | | '_ \ / _` | '__| 
+//   \ V  V / (_| | |_| | |_) | (_| | |    
+//    \_/\_/ \__,_|\__, |_.__/ \__,_|_|    
+//                 |___/                   
+//  
+// by Stephan Raabe (2023) 
+// Edited by Pilk (2024) :3c
+// ----------------------------------------------------- 
+//
+{
+    // General Settings
+    "layer": "top",
+    "margin-bottom": 0,
+    "layer": "top",
+    "margin-left": 0,
+    "margin-right": 0,
+    "spacing": 0,
+
+    // Position TOP
+    "layer": "top",
+    "margin-bottom": 2,
+    "margin-left": 15,
+    "margin-right": 15,
+    "margin-top": 15,
+    // Position BOTTOM
+    // "position": "bottom",
+    // "margin-top": 0,
+    // "margin-bottom": 14,
+    
+    "layer": "top",
+    "margin-left": 15,
+    "margin-right": 15,
+    "spacing": 0,
+
+    // Load Modules
+    "include": [
+        ".config/waybar/modules.json",
+    ],
+
+    // Modules Left
+    "modules-left": [
+    "hyprland/workspaces",
+    // "custom/appmenu"
+    //"custom/settings",
+    // "custom/waybarthemes",
+
+    //  "group/quicklinks",
+    "hyprland/window"
+    //  "custom/starter"
+    ],
+
+    // Modules Center
+    "modules-center": [
+     "clock"
+
+    ],
+
+    // Modules Right    
+    "modules-right": [
+    //  "custom/waybar-media",
+        "custom/playerprevious",
+        "custom/playerpause",
+        "custom/playernext",
+        "pulseaudio",
+    //  "bluetooth",
+        "network",
+    //  "group/hardware",
+        "cpu",
+        "memory",
+        "custom/wallpaper",
+        "tray",
+        "custom/exit"
+    // "custom/ml4w-welcome",
+
+    ]
+}
