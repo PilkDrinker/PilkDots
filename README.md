@@ -52,9 +52,10 @@ A lot of the heavy work was made by [Stephan Raabe](https://github.com/mylinuxfo
 6. Change your GTK theme (Using GTK-look/nwg-look or the terminal)
 
 ## Extra configuration
-There is a few optional configurations and alts in the .config directory (waybar borders etc.)
+There is a few optional configurations and alts in the .config directory (waybar borders etc.) Feel free to alter whatever you want to make it your own style. 🥰
+
 You can also changed your desired Wallpaper diretory in .config/waypaper/config.ini if you don't want it to be in ~/
-Feel free to alter whatever you want to make it your own style. 🥰
+
 
 ## Original work
 Here's a list of the people who's original configs I altered (There's might have been more, but I can't remember)
