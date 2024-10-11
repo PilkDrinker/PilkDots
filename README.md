@@ -51,7 +51,7 @@ A lot of the heavy work was made by [Stephan Raabe](https://github.com/mylinuxfo
 # Installation
 1. Install depenedcies with your preffered AUR helper.
 2. Clone Repo
-3. Move the .config .icons .themes wallpaper into your home directory
+3. Move the .config, .themes, and wallpaper into your home directory
 4. Install the listed fonts
 5. Set up zsh (Optional)
 6. Change your GTK theme and icons (Using GTK-look/nwg-look or the terminal)
@@ -70,8 +70,6 @@ Here's a list of the people who's original work I've altered (There's might have
 - [Stephan Raabe's ML4W](https://github.com/mylinuxforwork)
 - [LireB's Fastfetch](https://github.com/LierB/fastfetch)
 - [Newmals' Rofi themes](https://github.com/newmanls/rofi-themes-collection)
-- [L4ki's Vortex Icons](https://github.com/L4ki/Vortex-Plasma-Themes)
-- [yeyushengfan258's Miya Icons](https://github.com/yeyushengfan258/Miya-icon-theme)
 - [EliverLara's Sweet Themes](https://github.com/EliverLara/Sweet)
   
 
