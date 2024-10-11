@@ -17,4 +17,7 @@ fastfetch
 zsh
 oh-my-zsh-git
 hyprshot
-NetworkManager
+networkmanager
+networkmanager-qt
+nm-connection-editor
+

@@ -42,7 +42,7 @@
 window#waybar {
     background-color: rgba(0, 0, 0, 0.7);
     margin: 10px 0 0 0;
-    /*border: 2px solid @bordercolor;
+   /* border: 2px solid @bordercolor;
      Enable border by removing these > */
     border-radius: 50px 50px;
 

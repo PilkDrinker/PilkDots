@@ -1,6 +1,6 @@
 Meta + Enter =  Kitty
 Meta + Q     =  kill active window
-Meta + M     =  Exit hyprland
+Meta + M     =  Wlogout
 Meta + E     =  Open thunar
 Meta + V     =  Toggle floating
 Meta + R     =  Open menu
@@ -11,5 +11,7 @@ Meta + L     =  Hyprlock
 Meta + W     =  Waypaper
 Meta + B     =  Firefox
 Meta + I     =  Reload waybar
+
+
 printscreen  =  Screenshot Display to clipboard
 Meta + Printscreen = Screenshot a region to clipboard

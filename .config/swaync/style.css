@@ -20,7 +20,7 @@
 }
 
 .notification-row .notification-background {
-  padding: 10px 20px;
+  padding: 20px 20px;
 }
 
 .notification-row .notification-background .close-button {
@@ -30,7 +30,7 @@
   text-shadow: none;
   padding: 0;
   border-radius: 100%;
-  margin-top: 5px;
+  margin-top: 0px;
   margin-right: 5px;
   box-shadow: none;
   border: none;
