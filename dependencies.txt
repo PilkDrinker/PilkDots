@@ -9,6 +9,7 @@ thunar
 kitty
 pavucontrols
 gtk3
+gtk2
 xcur2png
 gsettings
 nwg-look
