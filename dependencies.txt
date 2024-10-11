@@ -16,3 +16,4 @@ fastfetch
 zsh
 oh-my-zsh-git
 hyprshot
+NetworkManager
