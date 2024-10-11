@@ -61,7 +61,7 @@ There is a few optional configurations and alts in the .config directory (waybar
 
 You can also changed your desired Wallpaper diretory in .config/waypaper/config.ini
 
-For the Theme to work in certain apps, you might need to add the theme's assets diretory to ~/.config/assets
+For the Theme to work in certain GTK apps, you might need to add the theme's assets diretory to ~/.config/assets
 
 
 ## Original work
