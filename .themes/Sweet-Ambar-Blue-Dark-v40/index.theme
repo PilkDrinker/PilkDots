@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Sweet-Ambar-Blue-Dark
+Comment=Light and dark colorful Gtk3.20+ theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Sweet-Ambar-Blue-Dark
+MetacityTheme=Sweet-Ambar-Blue-Dark
+IconTheme=candy-icons
+ButtonLayout=:minimize,maximize,close

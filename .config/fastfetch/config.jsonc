@@ -1,0 +1,71 @@
+//   _____ _____ _____ _____ _____ _____ _____ _____ _____ 
+//  |   __|  _  |   __|_   _|   __|   __|_   _|     |  |  |
+//  |   __|     |__   | | | |   __|   __| | | |   --|     |
+//  |__|  |__|__|_____| |_| |__|  |_____| |_| |_____|__|__|  ASCII-ART
+//
+//  by Bina
+
+ 
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "source": "~/.local/share/fastfetch/ascii/arch.txt",
+        "padding": {
+            "top": 1,
+            "right": 3
+        }
+    },
+    "display": {
+        "separator": " ⮞  "
+    },
+    "modules": [
+	"break",
+	/*{
+            "type": "title",
+            "color": {
+                "user": "1",  // = color2
+                "at": "1",
+                "host": "1"
+            }
+        },*/
+        "break",
+        {
+            "type": "os",
+            "key": "Distribution   ",
+            "keyColor": "96",
+        },
+        {
+            "type": "kernel",
+            "key": "Kernel         ",
+            "keyColor": "96",
+        },
+        {
+            "type": "Packages",
+            "format": "{}",
+            "key": "Packages       ",
+            "keyColor": "96",
+        },
+        {
+            "type": "shell",
+            "key": "Unix shell     ",
+            "keyColor": "96",
+        },
+        {
+            "type": "terminal",
+            "key": "Terminal       ",
+            "keyColor": "96",
+        },
+        {
+            "type": "wm",
+            "format": "{} ({3})",
+            "key": "Window manager ",
+            "keyColor": "96",
+        },
+
+ /*
+        {
+            "type": "colors",
+            "symbol": "circle",
+        },*/
+    ]
+}

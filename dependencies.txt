@@ -1,0 +1,17 @@
+hyprland
+wlogout
+waypaper
+waybar
+swww
+rofi
+thunar
+kitty
+pavucontrols
+gtk3
+xcur2png
+gsettings
+nwg-look
+fastfetch
+zsh
+oh-my-zsh-git
+hyprshot

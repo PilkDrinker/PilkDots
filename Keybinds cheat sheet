@@ -1,0 +1,14 @@
+Meta + Enter =  Kitty
+Meta + Q     =  kill active window
+Meta + M     =  Exit hyprland
+Meta + E     =  Open thunar
+Meta + V     =  Toggle floating
+Meta + R     =  Open menu
+Meta + P     =  Pseudo
+Meta + J     =  Split windows
+Meta + F     =  Fullscreen
+Meta + L     =  Hyprlock
+Meta + W     =  Waypaper
+Meta + B     =  Firefox
+printscreen  =  Screenshot Display to clipboard
+Meta + Printscreen = Screenshot a region to clipboard
