@@ -67,7 +67,7 @@ For the Theme to work in certain GTK apps, you might need to add the theme's ass
 
 
 ## Original work
-Here's a list of the people who's original work I've altered (There's might have been more, but I can't remember)
+Here's a list of the people who's original work I've altered (There might have been more, but I can't remember)
 
 - [Stephan Raabe's ML4W](https://github.com/mylinuxforwork)
 - [LireB's Fastfetch](https://github.com/LierB/fastfetch)
