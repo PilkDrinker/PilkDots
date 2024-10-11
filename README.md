@@ -53,6 +53,7 @@ A lot of the heavy work was made by [Stephan Raabe](https://github.com/mylinuxfo
 
 ## Extra configuration
 There is a few optional configurations and alts in the .config directory (waybar borders etc.)
+You can also changed your desired Wallpaper diretory in .config/waypaper/config.ini if you don't want it to be in ~/
 Feel free to alter whatever you want to make it your own style. 🥰
 
 ## Original work
