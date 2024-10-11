@@ -23,35 +23,36 @@ A lot of the heavy work was made by [Stephan Raabe](https://github.com/mylinuxfo
 
 ### ![alt text](https://github.com/PilkDrinker/dotfiles/blob/master/screenshots/Screenshot2.png)
 
-
 ## Depenedcies
 - hyprland
-- hyprshot
 - wlogout
 - waypaper
 - waybar
-- swaync
 - swww
 - rofi
+- swaync
 - thunar
 - kitty
 - pavucontrols
 - gtk3
+- gtk2
 - xcur2png
 - gsettings
 - nwg-look
 - fastfetch
 - zsh
 - oh-my-zsh-git
-- btop
-- cava
-- DroidSansMNerdFont
+- hyprshot
+- networkmanager
+- networkmanager-qt
+- nm-connection-editor
+
 
 # Installation
 1. Install depenedcies with your preffered AUR helper.
 2. Clone Repo
 3. Move the .config .icons .themes wallpaper into your home directory
-4. Install the font
+4. Install the listed fonts
 5. Set up zsh (Optional)
 6. Change your GTK theme and icons (Using GTK-look/nwg-look or the terminal)
 
