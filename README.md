@@ -25,7 +25,7 @@ A lot of the heavy work was made by [Stephan Raabe](https://github.com/mylinuxfo
 
 
 
-## Depenedcies
+## Dependencies
 - hyprland
 - wlogout
 - waypaper
