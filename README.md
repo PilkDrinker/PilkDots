@@ -48,8 +48,8 @@ A lot of the heavy work was made by [Stephan Raabe](https://github.com/mylinuxfo
 2. Clone Repo
 3. Move the .config .icons .themes wallpaper into your home directory
 4. Install the font
-5. Set up ZSH
-6. Change your GTK theme (Using GTK-look/nwg-look or the terminal)
+5. Set up zsh (Optional)
+6. Change your GTK theme and icons (Using GTK-look/nwg-look or the terminal)
 
 ## Extra configuration
 There is a few optional configurations and alts in the .config directory (waybar borders etc.) Feel free to alter whatever you want to make it your own style. 🥰
@@ -58,11 +58,14 @@ You can also changed your desired Wallpaper diretory in .config/waypaper/config.
 
 
 ## Original work
-Here's a list of the people who's original configs I altered (There's might have been more, but I can't remember)
+Here's a list of the people who's original work I've altered (There's might have been more, but I can't remember)
 
-- [Stephan Raabe](https://github.com/mylinuxforwork)
+- [Stephan Raabe's ML4W](https://github.com/mylinuxforwork)
 - [LireB's Fastfetch](https://github.com/LierB/fastfetch)
 - [Newmals' Rofi themes](https://github.com/newmanls/rofi-themes-collection)
-
+- [L4ki's Vortex Icons](https://github.com/L4ki/Vortex-Plasma-Themes)
+- [yeyushengfan258's Miya Icons](https://github.com/yeyushengfan258/Miya-icon-theme)
+- [EliverLara's Sweet Themes](https://github.com/EliverLara/Sweet)
+  
 
 
