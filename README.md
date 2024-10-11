@@ -54,7 +54,9 @@ A lot of the heavy work was made by [Stephan Raabe](https://github.com/mylinuxfo
 ## Extra configuration
 There is a few optional configurations and alts in the .config directory (waybar borders etc.) Feel free to alter whatever you want to make it your own style. 🥰
 
-You can also changed your desired Wallpaper diretory in .config/waypaper/config.ini if you don't want it to be in ~/
+You can also changed your desired Wallpaper diretory in .config/waypaper/config.ini
+
+For the Theme to work in certain apps, you might need to add the theme's assets diretory to ~/.config/assets
 
 
 ## Original work
