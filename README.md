@@ -6,9 +6,12 @@ A very clean look for hyprland. As well as my first ever rice 🤓
 Most of these original config files were made by other [people](https://github.com/PilkDrinker/dotfiles/edit/master/README.md#original-work) in the community and then alterted by me.
 A lot of the heavy work was made by [Stephan Raabe](https://github.com/mylinuxforwork) (ML4W) who made the inital dotfiles I edited.
 
+Also a big thanks to [Ksawlii](https://github.com/Ksawlii) for making the installation script! 💙
+
 ### Contents
 - [Dependencies](https://github.com/PilkDrinker/dotfiles/blob/master/README.md#depenedcies)
 - [Installation](https://github.com/PilkDrinker/dotfiles/blob/master/README.md#installation)
+- [Manual Installation](https://github.com/PilkDrinker/dotfiles/blob/master/README.md#manual-installation)
 - [Extra configuration](https://github.com/PilkDrinker/dotfiles/blob/master/README.md#extra-configuration)
 - [Original work](https://github.com/PilkDrinker/dotfiles/blob/master/README.md#original-work)
 
@@ -26,37 +29,53 @@ A lot of the heavy work was made by [Stephan Raabe](https://github.com/mylinuxfo
 
 
 ## Dependencies
-- hyprland
-- wlogout
-- waypaper
-- waybar
-- swww
-- rofi
-- swaync
-- thunar
-- kitty
-- pavucontrol
-- gtk3
-- gtk2
-- xcur2png
-- gsettings
-- nwg-look
-- fastfetch
-- zsh
-- oh-my-zsh-git
-- hyprshot
-- networkmanager
-- networkmanager-qt
-- nm-connection-editor
-
-
+```
+hyprland
+wlogout
+waypaper
+waybar
+swww
+rofi
+swaync
+thunar
+kitty
+pavucontrol
+gtk3
+gtk2
+xcur2png
+gsettings
+nwg-look
+fastfetch
+zsh
+oh-my-zsh-git
+hyprshot
+networkmanager
+networkmanager-qt
+nm-connection-editor
+ ```
+ 
 # Installation
+
+```
+git clone https://github.com/PilkDrinker/PilkDots
+cd PilkDots
+sudo chmod +x ./install.sh
+./install.sh
+```
+Huge thanks to [Ksawlii](https://github.com/Ksawlii) for making this installtion script! <3
+
+> [!NOTE]
+> The install script is not 100% done, some features may need to be configured manually.
+
+# Manual Installation
+```
 1. Install depenedcies with your preffered AUR helper.
 2. Clone the repository
 3. Move the .config, .themes, and wallpaper into your home directory
 4. Install the listed fonts
 5. Set up zsh (Optional)
 6. Change your GTK theme and icons (Using GTK-look/nwg-look or the terminal)
+```
 
 ## Extra configuration
 There is a few optional configurations and alts in the .config directory (waybar borders etc.) Feel free to alter whatever you want to make it your own style. 🥰
