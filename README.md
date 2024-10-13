@@ -65,7 +65,7 @@ sudo chmod +x ./install.sh
 Huge thanks to [Ksawlii](https://github.com/Ksawlii) for making this installtion script! <3
 
 > [!NOTE]
-> The install script is not 100% done, some features may need to be configured manually.
+> This installation script is currently limited to Gentoo, and is not 100% done. Some features may need to be configured manually.
 
 # Manual Installation
 ```
