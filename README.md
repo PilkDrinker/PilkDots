@@ -35,7 +35,7 @@ A lot of the heavy work was made by [Stephan Raabe](https://github.com/mylinuxfo
 - swaync
 - thunar
 - kitty
-- pavucontrols
+- pavucontrol
 - gtk3
 - gtk2
 - xcur2png
