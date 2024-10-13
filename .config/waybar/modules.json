@@ -63,6 +63,7 @@
     "custom/wallpaper": {
         "format": "",
         "on-click": "waypaper",
+        "on-click-right": "waypaper --random",
         "tooltip": false
     },
     
@@ -158,7 +159,7 @@
         "interval": 30,
         "format": "D {percentage_used}% ",
         "path": "/",
-        "on-click": "alacritty -e htop"
+        "on-click": "kitty -e htop"
     }, 
 
     "hyprland/language": {
@@ -307,7 +308,7 @@
         "interval": 60,
         "icon": false,
     },
-
+    
     // Idle Inhibator
     "idle_inhibitor": {
         "format": "{icon}",
