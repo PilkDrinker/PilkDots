@@ -69,7 +69,7 @@ Huge thanks to [Ksawlii](https://github.com/Ksawlii) for making this installtion
 
 # Manual Installation
 ```
-1. Install depenedcies with your preffered AUR helper.
+1. Install the dependencies with your preffered AUR helper.
 2. Clone the repository
 3. Move the .config, .themes, and wallpaper into your home directory
 4. Install the listed fonts
