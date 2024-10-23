@@ -37,7 +37,7 @@ waybar
 swww
 rofi
 swaync
-thunar
+nemo
 kitty
 pavucontrol
 gtk3
@@ -55,7 +55,7 @@ nm-connection-editor
  ```
 
 ```
-yay -Syu hyprland wlogout waypaper waybar swww rofi swaync thunar kitty pavucontrol gtk3 gtk2 xcur2png gsettings-qt nwg-look fastfetch zsh oh-my-zsh-git hyprshot networkmanager networkmanager-qt nm-connection-editor
+yay -Syu hyprland wlogout waypaper waybar swww rofi swaync nemo kitty pavucontrol gtk3 gtk2 xcur2png gsettings-qt nwg-look fastfetch zsh oh-my-zsh-git hyprshot networkmanager networkmanager-qt nm-connection-editor
 ```
  
 # Installation
