@@ -1,17 +1,16 @@
-Meta + Enter =  Kitty
-Meta + Q     =  kill active window
-Meta + M     =  Wlogout
-Meta + E     =  Open thunar
-Meta + V     =  Toggle floating
-Meta + R     =  Open menu
-Meta + P     =  Pseudo
-Meta + J     =  Split windows
-Meta + F     =  Fullscreen
-Meta + L     =  Hyprlock
-Meta + W     =  Waypaper
-Meta + B     =  Firefox
-Meta + I     =  Reload waybar
-
-
-printscreen  =  Screenshot Display to clipboard
-Meta + Printscreen = Screenshot a region to clipboard
+Meta + Enter         =  Terminal
+Meta + Q             =  kill active window
+Meta + M             =  Wlogout
+Meta + E             =  Open file manager
+Meta + V             =  Toggle floating
+Meta + R             =  Open menu
+Meta + P             =  Pseudo
+Meta + J             =  Split windows
+Meta + F             =  Fullscreen
+Meta + L             =  Hyprlock
+Meta + W             =  Waypaper
+Meta SHIFT + W       =  Waypaper (Random Wallpaper)
+Meta + B             =  Firefox
+Meta + I             =  Reload waybar
+printscreen          =  Screenshot Display to clipboard
+Meta + Printscreen   = Screenshot a region to clipboard
