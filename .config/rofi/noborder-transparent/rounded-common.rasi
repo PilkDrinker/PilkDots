@@ -17,8 +17,8 @@
 
 window {
     location:       center;
-    width:          400;
-    border:         2px;
+    width:          350;
+    border:         3px;
     border-radius:  30px;
     border-color:       transparent;
     background-color:   @bb;
