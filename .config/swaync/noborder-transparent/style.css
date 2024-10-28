@@ -1,0 +1,29 @@
+@define-color cc-bg rgba(12, 12, 12, 0.75);
+@define-color noti-border-color black;
+@define-color noti-bg rgba(12, 12, 12, 0.25);
+@define-color noti-bg-opaque rgba(12, 12, 12, 0.75);
+@define-color noti-bg-darker rgba(12, 12, 12, 0.75);
+@define-color noti-bg-hover rgba(12, 12, 12, 0.75);
+@define-color noti-bg-hover-opaque rgba(12, 12, 12, 0.75);
+@define-color noti-bg-focus rgba(68, 68, 68, 0.2);
+
+.notification-row .notification-background {
+  padding: 20px 20px;
+}
+
+
+.notification-row .notification-background .notification {
+  /* The actual notification */
+  border-radius: 12px;
+  /*border: 0px solid black;*/
+  padding: 0;
+  background: @noti-bg;
+}
+
+.notification-row .notification-background .notification .notification-action,
+.notification-row .notification-background .notification .notification-default-action {
+  padding: 4px;
+  margin: 2px;
+  background: transparent;
+  color: @text-color;
+}
