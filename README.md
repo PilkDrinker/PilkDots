@@ -17,10 +17,10 @@ Also a big thanks to [Ksawlii](https://github.com/Ksawlii) for making the instal
 
 
 ## Screenshots
-
+No borders + Translucency 
+### ![alt text](https://github.com/PilkDrinker/PilkDots/blob/master/screenshots/Sreenshot3.png)
+Default
 ### ![alt text](https://github.com/PilkDrinker/dotfiles/blob/master/screenshots/Screenshot1.png)
-
-### ![alt text](https://github.com/PilkDrinker/dotfiles/blob/master/screenshots/Screenshot2.png)
 
 ### ![alt text](https://github.com/PilkDrinker/dotfiles/blob/master/screenshots/sc2.gif)
 
