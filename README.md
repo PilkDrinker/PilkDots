@@ -29,6 +29,7 @@ Default
 
 
 ## Dependencies
+Install these with your preferred AUR helper, e.g. yay
 ```
 hyprland
 wlogout
