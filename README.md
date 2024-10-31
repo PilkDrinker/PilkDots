@@ -62,7 +62,7 @@ yay -Syu hyprland wlogout waypaper waybar swww rofi swaync nemo kitty pavucontro
 # Installation
 
 ```
-yay -Syu hyprland wlogout waypaper waybar swww rofi swaync nemo kitty pavucontrol gtk3 gtk2 xcur2png gsettings-qt nwg-look fastfetch zsh oh-my-zsh-git hyprshot networkmanager networkmanager-qt nm-connection-editor
+yay -S hyprland wlogout waypaper waybar swww rofi swaync nemo kitty pavucontrol gtk3 gtk2 xcur2png gsettings-qt nwg-look fastfetch zsh oh-my-zsh-git hyprshot networkmanager networkmanager-qt nm-connection-editor
 git clone https://github.com/PilkDrinker/PilkDots
 cd PilkDots
 sudo chmod +x ./install.sh
