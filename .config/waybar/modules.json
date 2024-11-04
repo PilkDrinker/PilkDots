@@ -65,34 +65,6 @@
         "on-click": "waypaper",
         "on-click-right": "waypaper --random",
         "tooltip": false
-    },
-    
-    // Settings
-    "custom/settings": {
-        "format": "",
-        "on-click": "~/.config/ml4w/apps/ML4W_Dotfiles_Settings-x86_64.AppImage",
-        "tooltip": false
-    },
-
-    // Keybindings
-    "custom/keybindings": {
-        "format": "",
-        "on-click": "~/.config/hypr/scripts/keybindings.sh",
-        "tooltip": false
-    },
-
-    // Filemanager Launcher
-    "custom/filemanager": {
-        "format": "",
-        "on-click": "nautilus",
-        "tooltip": false
-    },
-
-    // Browser Launcher
-    "custom/browser": {
-        "format": "",
-        "on-click": "~/.config/ml4w/settings/browser.sh",
-        "tooltip": false
 
     },
 
@@ -100,7 +72,6 @@
     "custom/appmenu": {
         "format": "Apps",
         "on-click": "rofi -show drun -replace",
-        "on-click-right": "~/.config/hypr/scripts/keybindings.sh",
         "tooltip": false
     },
     
@@ -144,13 +115,13 @@
 
     // CPU
     "cpu": {
-        "format": "CPU  {usage}%   ",
+        "format": "    {usage}%   ",
         "on-click": "kitty -e btop"
     },
 
     // Memory
     "memory": {
-        "format": "MEM {}%   ",
+        "format": "     {}%   ",
         "on-click": "kitty -e btop"
     },
 
@@ -210,7 +181,7 @@
     // Network
     "network": {
         "format": "{ifname}",
-        "format-wifi": "  {signalStrength}%",
+        "format-wifi": "󰖩   {signalStrength}%",
         "format-ethernet": "  {ipaddr}",
         "format-disconnected": "Not connected", //An empty format will hide the module.
         "tooltip-format": " {ifname} via {gwaddri}",

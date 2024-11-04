@@ -33,14 +33,14 @@
 
 
 * {
-    font-family: "Fira Sans Semibold", "Font Awesome 6 Free", FontAwesome, awesomefont, Roboto, Helvetica, Arial, "fontawesome-free-6.6.0", sans-serif;
+    font-family: "Fira Sans Semibold", "Font Awesome 6 Free", DroidSansMNerdFont, FontAwesome, awesomefont, Roboto, Helvetica, Arial, "fontawesome-free-6.6.0", sans-serif;
     border: none;
     border-radius: 0px;
 
 }
 
 window#waybar {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.6);
     margin: 10px 0 0 0;
    /* border: 2px solid @bordercolor;
      Enable border by removing these > */
@@ -254,14 +254,28 @@ window#waybar.empty #window {
 /* -----------------------------------------------------
  * Hardware Group
  * ----------------------------------------------------- */
-
+/*
  #disk,#memory,#cpu,#language {
     margin:0px;
     padding:0px;
     font-size:16px;
     color:@iconcolor;
+}        "cpu",
+        "memory",
+*/
+#cpu {
+    margin: 1px 0px 0px 0px;
+    padding:0px;
+    font-size:16px;
+    color: @iconcolor;
 }
 
+#memory {
+    margin: 1px 0px 0px 0px;
+    padding:0px;
+    font-size:16px;
+    color: @iconcolor;
+}
 #language {
     margin-right:10px;
 }
@@ -298,7 +312,7 @@ window#waybar.empty #window {
     font-size: 16px;
     color: @textcolor0;
     border-radius: 15px;
-    padding: 2px 0px 0px 0px;
+    padding: 1px 0px 0px 2px;
     margin: 10px -0px 10px 5px;
 
 }
@@ -306,6 +320,7 @@ window#waybar.empty #window {
 #pulseaudio.muted {
     background-color: @backgrounddark;
     color: @textcolor1;
+    
 }
 
 /* -----------------------------------------------------
@@ -316,8 +331,8 @@ window#waybar.empty #window {
     font-size: 16px;
     color: @textcolor0;
     border-radius: 15px;
-    padding: 2px 10px 0px 10px;
-    margin: 10px 5px 10px 5px;
+    padding: 1px 10px 0px 9px;
+    margin: 10px 5px 10px 6px;
 }
 
 #network.ethernet {
@@ -399,25 +414,25 @@ window#waybar.empty #window {
 }
 
 #custom-playerpause {
-    font-size: 35px;
+    font-size: 30px;
     color: @textcolor0;
-    padding: 0px 0px 0px 0px;
-    margin: 5px 0px 0px 0px;
+    padding: 3px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
 }
 
 #custom-playernext {
-    font-size: 35px;
+    font-size: 30px;
     color: @textcolor0;
-    padding: 0px 0px 0px 0px;
-    margin: 5px 0px 0px 0px;
+    padding: 3px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
 
 }
 
 #custom-playerprevious {
-    font-size: 35px;
+    font-size: 30px;
     color: @textcolor0;
-    padding: 0px 0px 0px 0px;
-    margin: 5px 0px 0px 0px;
+    padding: 3px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
 }
 #custom-playerprevious:hover,
 #custom-playerpause:hover,

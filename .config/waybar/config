@@ -70,8 +70,10 @@
     //  "group/hardware",
         "cpu",
         "memory",
-        "custom/wallpaper",
+    // "custom/wallpaper",
         "tray",
         "custom/exit"
+    // "custom/ml4w-welcome",
+
     ]
 }
