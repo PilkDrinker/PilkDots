@@ -419,6 +419,12 @@ window#waybar.empty #window {
     padding: 0px 0px 0px 0px;
     margin: 5px 0px 0px 0px;
 }
+#custom-playerprevious:hover,
+#custom-playerpause:hover,
+#custom-playernext:hover {
+    color: #00bcd4;
+}
+
 /* -----------------------------------------------------
  * Other
  * ----------------------------------------------------- */
