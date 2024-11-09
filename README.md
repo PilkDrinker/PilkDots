@@ -59,19 +59,29 @@ nm-connection-editor
 yay -Syu hyprland wlogout waypaper waybar swww rofi swaync nemo kitty pavucontrol gtk3 gtk2 xcur2png gsettings-qt nwg-look fastfetch zsh oh-my-zsh-git hyprshot networkmanager networkmanager-qt nm-connection-editor
 ```
  
-# Installation
+# Installation for Gentoo
 
 ```
-yay -S hyprland wlogout waypaper waybar swww rofi swaync nemo kitty pavucontrol gtk3 gtk2 xcur2png gsettings-qt nwg-look fastfetch zsh oh-my-zsh-git hyprshot networkmanager networkmanager-qt nm-connection-editor
+
 git clone https://github.com/PilkDrinker/PilkDots
 cd PilkDots
 sudo chmod +x ./install.sh
-./install.sh
+./install-gentoo.sh
 ```
 Huge thanks to [Ksawlii](https://github.com/Ksawlii) for making this installtion script! <3
 
+# Installation for Arch
+
+```
+
+git clone https://github.com/PilkDrinker/PilkDots
+cd PilkDots
+sudo chmod +x ./install.sh
+./install-arch.sh
+```
+
 > [!NOTE]
-> This installation script is currently limited to Gentoo, and is not 100% done. Some features may need to be configured manually.
+> This installation script is currently limited to Gentoo and Arch, and is not 100% done. Some features may need to be configured manually.
 
 # Manual Installation
 ```
