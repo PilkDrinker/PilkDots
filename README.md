@@ -6,7 +6,7 @@ A very clean look for hyprland. As well as my first ever rice 🤓
 Most of these original config files were made by other [people](https://github.com/PilkDrinker/PilkDots?tab=readme-ov-file#original-work) in the community and then alterted by me.
 A lot of the heavy work was made by [Stephan Raabe](https://github.com/mylinuxforwork) (ML4W) who made the inital dotfiles I edited.
 
-Also a big thanks to [Ksawlii](https://github.com/Ksawlii) for making the installation script! 💙
+Also a big thanks to [Ksawlii](https://github.com/Ksawlii) and [Thomas Brugman](https://github.com/Githubguy132010) for making the installation scripts! 💙
 
 ### Contents
 - [Dependencies](https://github.com/PilkDrinker/PilkDots?tab=readme-ov-file#dependencies)
@@ -62,23 +62,21 @@ yay -Syu hyprland wlogout waypaper waybar swww rofi swaync nemo kitty pavucontro
 # Installation for Gentoo
 
 ```
-
 git clone https://github.com/PilkDrinker/PilkDots
 cd PilkDots
 sudo chmod +x ./install.sh
 ./install-gentoo.sh
 ```
-Huge thanks to [Ksawlii](https://github.com/Ksawlii) for making this installtion script! <3
 
 # Installation for Arch
 
 ```
-
 git clone https://github.com/PilkDrinker/PilkDots
 cd PilkDots
 sudo chmod +x ./install.sh
 ./install-arch.sh
 ```
+Huge thanks to [Ksawlii](https://github.com/Ksawlii) and [Thomas Brugman](https://github.com/Githubguy132010) for making these installtion scripts! <3
 
 > [!NOTE]
 > This installation script is currently limited to Gentoo and Arch, and is not 100% done. Some features may need to be configured manually.
