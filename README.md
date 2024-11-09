@@ -64,7 +64,7 @@ yay -Syu hyprland wlogout waypaper waybar swww rofi swaync nemo kitty pavucontro
 ```
 git clone https://github.com/PilkDrinker/PilkDots
 cd PilkDots
-sudo chmod +x ./install.sh
+sudo chmod +x ./install-gentoo.sh
 ./install-gentoo.sh
 ```
 
@@ -73,7 +73,7 @@ sudo chmod +x ./install.sh
 ```
 git clone https://github.com/PilkDrinker/PilkDots
 cd PilkDots
-sudo chmod +x ./install.sh
+sudo chmod +x ./install-arch.sh
 ./install-arch.sh
 ```
 Huge thanks to [Ksawlii](https://github.com/Ksawlii) and [Thomas Brugman](https://github.com/Githubguy132010) for making these installtion scripts! <3
