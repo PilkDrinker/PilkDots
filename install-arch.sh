@@ -1,19 +1,26 @@
 #!/bin/bash
 
+# Exit immediately if a command exits with a non-zero status
+set -e
+
+# Get the current script directory
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
 # Function to ask a yes/no question with a custom prompt
 ask_yn() {
     while true; do
         read -p "$1 (y/n): " yn
         case $yn in
-            [Yy]* ) return 1;;
-            [Nn]* ) return 0;;
+            [Yy]* ) return 0;;  # Return 0 (success) for yes
+            [Nn]* ) return 1;;  # Return 1 (failure) for no
             * ) echo "Please answer y or n.";;
         esac
     done
 }
 
 # Enable multilib if not already enabled
-if ! grep -q '\[multilib\]' /etc/pacman.conf; then
+if ! grep -q '^\[multilib\]' /etc/pacman.conf; then
+    echo "Enabling multilib repository..."
     echo -e "\n[multilib]\nInclude = /etc/pacman.d/mirrorlist" | sudo tee -a /etc/pacman.conf
     sudo pacman -Syu
 fi
@@ -21,7 +28,7 @@ fi
 # Install yay if not installed
 if ! command -v yay &> /dev/null; then
     echo "Installing yay (AUR helper)..."
-    sudo pacman -S --needed base-devel
+    sudo pacman -Syu --needed base-devel git
     git clone https://aur.archlinux.org/yay.git ~/yay
     (cd ~/yay && makepkg -si)
 fi
@@ -39,7 +46,11 @@ fi
 # Oh My Zsh
 echo ""
 if ask_yn "Do you want to install Oh My Zsh?"; then
-    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    if [ -d "$HOME/.oh-my-zsh" ]; then
+        echo "Oh My Zsh is already installed."
+    else
+        sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    fi
 else
     echo "Skipping Oh My Zsh installation..."
 fi
@@ -48,23 +59,38 @@ fi
 echo ""
 echo "Copying configuration files..."
 sleep 1
-echo "./.config > ~/.config"
-cp -rf ./.config/ ~/
-sleep 1
-echo "./.zshrc > ~/.zshrc"
-cp -rf ./.zshrc ~/.zshrc
-sleep 1
-echo "./wallpaper > ~/wallpaper"
-cp -rf ./wallpaper ~/
-sleep 1
-echo "./.themes > ~/.themes"
-cp -rf ./.themes ~/
+
+# Create backup of existing configurations
+BACKUP_DIR="$HOME/backup_$(date +%Y%m%d_%H%M%S)"
+mkdir -p "$BACKUP_DIR"
+
+copy_with_backup() {
+    local src=$1
+    local dest=$2
+    if [ -e "$dest" ]; then
+        echo "Backing up existing $(basename "$dest") to $BACKUP_DIR"
+        mv "$dest" "$BACKUP_DIR"
+    fi
+    cp -rf "$src" "$dest"
+}
+
+echo "Copying .config to ~/.config"
+copy_with_backup "$SCRIPT_DIR/.config/" "$HOME/.config/"
+
+echo "Copying .zshrc to ~/.zshrc"
+copy_with_backup "$SCRIPT_DIR/.zshrc" "$HOME/.zshrc"
+
+echo "Copying wallpaper to ~/wallpaper"
+copy_with_backup "$SCRIPT_DIR/wallpaper" "$HOME/wallpaper"
+
+echo "Copying .themes to ~/.themes"
+copy_with_backup "$SCRIPT_DIR/.themes/" "$HOME/.themes/"
 
 # Nerd Fonts
 echo ""
-if ask_yn "Do you want Nerd Fonts (Recommended) (8GB)?"; then
+if ask_yn "Do you want to install Nerd Fonts (Recommended) (~8GB download)?"; then
     git clone --depth=1 https://github.com/ryanoasis/nerd-fonts.git ~/nerd-fonts
-    cd ~/nerd-fonts && ./install.sh
+    ~/nerd-fonts/install.sh
 else
     echo "Skipping Nerd Fonts installation..."
 fi
