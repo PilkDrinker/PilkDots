@@ -64,7 +64,7 @@ yay -Syu hyprland wlogout waypaper waybar swww rofi swaync nemo kitty pavucontro
 ```
 git clone https://github.com/PilkDrinker/PilkDots
 cd PilkDots
-sudo chmod +x ./install.sh
+sudo chmod +x ./install-gentoo.sh
 ./install-gentoo.sh
 ```
 
@@ -73,7 +73,7 @@ sudo chmod +x ./install.sh
 ```
 git clone https://github.com/PilkDrinker/PilkDots
 cd PilkDots
-sudo chmod +x ./install.sh
+sudo chmod +x ./install-arch.sh
 ./install-arch.sh
 ```
 Huge thanks to [Ksawlii](https://github.com/Ksawlii) and [Thomas Brugman](https://github.com/Githubguy132010) for making these installtion scripts! <3
@@ -94,7 +94,7 @@ Huge thanks to [Ksawlii](https://github.com/Ksawlii) and [Thomas Brugman](https:
 ## Extra configuration
 There is a few optional configurations and alts in the .config directory (waybar borders etc.) Feel free to alter whatever you want to make it your own style. 🥰
 
-You can also changed your desired Wallpaper diretory in .config/waypaper/config.ini
+You can also changed your desired Wallpaper directory in .config/waypaper/config.ini
 
 For the Theme to work in certain GTK apps, you might need to add the theme's assets diretory to ~/.config/assets
 
