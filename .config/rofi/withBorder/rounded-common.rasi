@@ -3,7 +3,7 @@
  * User                 : LR-Tech               
  * Theme Repo           : https://github.com/lr-tech/rofi-themes-collection
  *******************************************************************************/
-@import ~/.cache/wal/colors-rofi-dark.rasi
+
 * {
     font:   "Roboto 12";
 

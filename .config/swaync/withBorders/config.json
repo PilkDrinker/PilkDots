@@ -26,7 +26,7 @@
   "notification-window-hight": 400,
   "keyboard-shortcuts": true,
   "image-visibility": "when-available",
-  "transition-time": 0,
+  "transition-time": 400,
   "hide-on-clear": false,
   "hide-on-action": true,
   "script-fail-notify": true,

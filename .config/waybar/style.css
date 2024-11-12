@@ -313,7 +313,7 @@ window#waybar.empty #window {
     color: @textcolor0;
     border-radius: 15px;
     padding: 1px 0px 0px 2px;
-    margin: 10px -0px 10px 5px;
+    margin: 10px 0px 10px 5px;
 
 }
 

@@ -17,11 +17,11 @@
 
 window {
     location:       center;
-    width:          400;
-    border:         2px;
+    width:          350;
+    border:         3px;
     border-radius:  30px;
-    border-color:       @bg3;
-    background-color:   @bg0;
+    border-color:       transparent;
+    background-color:   @bb;
 }
 
 mainbox {
@@ -30,7 +30,7 @@ mainbox {
 }
 
 inputbar {
-    background-color:   @bg1;
+    background-color:   @se;
     border-color:       @bg2;
 
     border:         2px;
@@ -86,7 +86,7 @@ element alternate active {
 }
 
 element selected normal, element selected active {
-    background-color:   @bg3;
+    background-color:   @bor;
 }
 
 element-icon {

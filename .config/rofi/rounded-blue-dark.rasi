@@ -13,6 +13,10 @@
     fg1:    #FFFFFF;
     fg2:    #969696;
     fg3:    #3D3D3D;
+    bb:     rgba ( 12, 12, 12, 75 % );
+    se:     rgba ( 12, 12, 12, 60 % );
+    sel:    rgba ( 0, 0, 0, 90 % );
+    bor:    rgba ( 255, 255, 255, 12 % );
 }
 
 @import "rounded-common.rasi"
