@@ -36,7 +36,7 @@ wlogout
 waypaper
 waybar
 swww
-rofi
+rofi-wayland
 swaync
 nemo
 kitty
@@ -56,7 +56,7 @@ nm-connection-editor
  ```
 
 ```
-yay -Syu hyprland wlogout waypaper waybar swww rofi swaync nemo kitty pavucontrol gtk3 gtk2 xcur2png gsettings-qt nwg-look fastfetch zsh oh-my-zsh-git hyprshot networkmanager networkmanager-qt nm-connection-editor
+yay -Syu hyprland wlogout waypaper waybar swww rofi-wayland swaync nemo kitty pavucontrol gtk3 gtk2 xcur2png gsettings-qt nwg-look fastfetch zsh oh-my-zsh-git hyprshot networkmanager networkmanager-qt nm-connection-editor
 ```
  
 # Installation for Gentoo
