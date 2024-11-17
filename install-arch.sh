@@ -37,7 +37,7 @@ fi
 echo ""
 if ask_yn "Do you want to install required dependencies (very recommended)?"; then
     sudo pacman -Syu
-    yay -S hyprland waybar waypaper swww rofi swaync python-pipx nemo kitty pavucontrol gtk2 gtk3 nwg-look fastfetch zsh nerd-fonts-complete networkmanager networkmanager-qt nm-connection-editor xcur2png gsettings-qt hyprshot wlogout ttf-fira-sans ttf-firecode-nerd otf-droid-nerd texlive-fontsextra
+    yay -S hyprland waybar waypaper swww rofi-wayland swaync python-pipx nemo kitty pavucontrol gtk2 gtk3 nwg-look fastfetch zsh nerd-fonts-complete networkmanager networkmanager-qt nm-connection-editor xcur2png gsettings-qt hyprshot wlogout ttf-fira-sans ttf-firecode-nerd otf-droid-nerd texlive-fontsextra
 else
     echo "Skipping dependency installation..."
 fi
