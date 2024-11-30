@@ -31,13 +31,13 @@ if ! command -v yay &> /dev/null; then
     sudo pacman -Syu --needed base-devel git
     git clone https://aur.archlinux.org/yay.git ~/yay
     (cd ~/yay && makepkg -si)
+    rm -rf ~/yay
 fi
 
 # Install dependencies
 echo ""
 if ask_yn "Do you want to install required dependencies (very recommended)?"; then
-    sudo pacman -Syu
-    yay -S hyprland waybar waypaper swww rofi-wayland swaync python-pipx nemo kitty pavucontrol gtk2 gtk3 nwg-look fastfetch zsh nerd-fonts-complete networkmanager networkmanager-qt nm-connection-editor xcur2png gsettings-qt hyprshot wlogout ttf-fira-sans ttf-firecode-nerd otf-droid-nerd texlive-fontsextra
+    yay -Syu hyprland waybar waypaper swww rofi-wayland swaync python-pipx nemo kitty pavucontrol gtk2 gtk3 nwg-look fastfetch zsh nerd-fonts-complete networkmanager networkmanager-qt nm-connection-editor xcur2png gsettings-qt hyprshot wlogout ttf-fira-sans ttf-firecode-nerd otf-droid-nerd texlive-fontsextra
 else
     echo "Skipping dependency installation..."
 fi
@@ -73,16 +73,10 @@ copy_with_backup() {
     cp -rf "$src" "$dest"
 }
 
-echo "Copying .config to ~/.config"
+echo "Backing up existing configurations to $BACKUP_DIR"
 copy_with_backup "$SCRIPT_DIR/.config/" "$HOME/.config/"
-
-echo "Copying .zshrc to ~/.zshrc"
 copy_with_backup "$SCRIPT_DIR/.zshrc" "$HOME/.zshrc"
-
-echo "Copying wallpaper to ~/wallpaper"
 copy_with_backup "$SCRIPT_DIR/wallpaper" "$HOME/wallpaper"
-
-echo "Copying .themes to ~/.themes"
 copy_with_backup "$SCRIPT_DIR/.themes/" "$HOME/.themes/"
 
 # Nerd Fonts
@@ -90,6 +84,7 @@ echo ""
 if ask_yn "Do you want to install Nerd Fonts (Recommended) (~8GB download)?"; then
     git clone --depth=1 https://github.com/ryanoasis/nerd-fonts.git ~/nerd-fonts
     ~/nerd-fonts/install.sh
+    rm -rf ~/nerd-fonts
 else
     echo "Skipping Nerd Fonts installation..."
 fi

@@ -41,7 +41,7 @@ choice=$(ask_choice "Which distro do you have?: (1) Arch Linux, (2) Gentoo Linux
 
 case $choice in
     1)
-        echo "Arch Linux not implemented yet."
+        echo "Please use install-arch.sh for Arch Linux."
         ;;
     2)
         # Loop to choose doas or sudo with validation
