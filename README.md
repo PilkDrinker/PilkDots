@@ -9,7 +9,7 @@ A lot of the heavy work was made by [Stephan Raabe](https://github.com/mylinuxfo
 Also a big thanks to [Ksawlii](https://github.com/Ksawlii) and [Thomas Brugman](https://github.com/Githubguy132010) for making the installation scripts! 💙
 
 ### Contents
-- [Dependencies](https://github.com/PilkDrinker/PilkDots?tab=readme-ov-file#dependencies)
+- [Required dependencies](https://github.com/PilkDrinker/PilkDots?tab=readme-ov-file#required dependencies)
 - [Installation](https://github.com/PilkDrinker/PilkDots?tab=readme-ov-file#installation)
 - [Manual Installation](https://github.com/PilkDrinker/PilkDots?tab=readme-ov-file#manual-installation)
 - [Extra configuration](https://github.com/PilkDrinker/PilkDots?tab=readme-ov-file#extra-configuration)
@@ -28,8 +28,8 @@ With Borders
 
 
 
-## Dependencies
-Install these with your preferred AUR helper, e.g. yay
+## Required dependencies
+Install these with your preferred AUR helper, e.g. yay. (You can also use the install scripts below to do it.)
 ```
 hyprland
 wlogout
@@ -58,6 +58,12 @@ nm-connection-editor
 ```
 yay -Syu hyprland wlogout waypaper waybar swww rofi-wayland swaync nemo kitty pavucontrol gtk3 gtk2 xcur2png gsettings-qt nwg-look fastfetch zsh oh-my-zsh-git hyprshot networkmanager networkmanager-qt nm-connection-editor
 ```
+
+Or for paru:
+
+```
+paru -Syu  hyprland wlogout waypaper waybar swww rofi-wayland swaync nemo kitty pavucontrol gtk3 gtk2 xcur2png gsettings-qt nwg-look fastfetch zsh oh-my-zsh-git hyprshot networkmanager networkmanager-qt nm-connection-editor
+```
  
 # Installation for Gentoo
 
@@ -79,7 +85,7 @@ sudo chmod +x ./install-arch.sh
 Huge thanks to [Ksawlii](https://github.com/Ksawlii) and [Thomas Brugman](https://github.com/Githubguy132010) for making these installtion scripts! <3
 
 > [!NOTE]
-> This installation script is currently limited to Gentoo and Arch, and is not 100% done. Some features may need to be configured manually.
+> This installation script is currently limited to Gentoo and Arch (and derivatives of Arch), and is not 100% done. Some features may need to be configured manually.
 
 # Manual Installation
 ```
