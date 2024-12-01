@@ -24,23 +24,45 @@ if ! grep -q '^\[multilib\]' /etc/pacman.conf; then
     echo -e "\n[multilib]\nInclude = /etc/pacman.d/mirrorlist" | sudo tee -a /etc/pacman.conf
     sudo pacman -Syu
 fi
-
-# Install yay if not installed
-if ! command -v yay &> /dev/null; then
+# Detect if yay is installed, if not, ask user if they want to install it + dependency installation.
+if ! pacman -Q yay &>/dev/null; then
+    echo "yay not detected, proceeding with install script..."
+    if ask_yn "Do you want to install yay (AUR helper)?"; then
     echo "Installing yay (AUR helper)..."
     sudo pacman -Syu --needed base-devel git
     git clone https://aur.archlinux.org/yay.git ~/yay
     (cd ~/yay && makepkg -si)
     rm -rf ~/yay
-fi
-
-# Install dependencies
-echo ""
-if ask_yn "Do you want to install required dependencies (very recommended)?"; then
-    yay -Syu hyprland waybar waypaper swww rofi-wayland swaync python-pipx nemo kitty pavucontrol gtk2 gtk3 nwg-look fastfetch zsh nerd-fonts-complete networkmanager networkmanager-qt nm-connection-editor xcur2png gsettings-qt hyprshot wlogout ttf-fira-sans ttf-firecode-nerd otf-droid-nerd texlive-fontsextra
 else
+    echo "yay detected, skipping installation and proceeding with dependency installation..."
+    sleep 2
+    clear
+    echo ""
+    if ask_yn "Do you want to install required dependencies with yay (very recommended)?"; then
+        yay -Syu hyprland waybar waypaper swww rofi-wayland swaync python-pipx nemo kitty pavucontrol gtk2 gtk3 nwg-look fastfetch zsh nerd-fonts-complete networkmanager networkmanager-qt nm-connection-editor xcur2png gsettings-qt hyprshot wlogout ttf-fira-sans ttf-firecode-nerd otf-droid-nerd texlive-fontsextra
+    else
     echo "Skipping dependency installation..."
 fi
+}
+    echo "paru not detected, proceeding with install script..."
+    if ask_yn "Do you want to install paru (AUR helper)?"; then
+    echo "Installing paru (AUR helper)..."
+    sudo pacman -Syu --needed base-devel git
+    git clone https://aur.archlinux.org/paru.git ~/paru
+    (cd ~/paru && makepkg -si)
+    rm -rf ~/paru
+else
+    echo "paru detected, skipping installation and proceeding with dependency installation..."
+    sleep 2
+    clear
+    echo ""
+    if ask_yn "Do you want to install required dependencies with paru (very recommended)?"; then
+        paru -Syu hyprland waybar waypaper swww rofi-wayland swaync python-pipx nemo kitty pavucontrol gtk2 gtk3 nwg-look fastfetch zsh nerd-fonts-complete networkmanager networkmanager-qt nm-connection-editor xcur2png gsettings-qt hyprshot wlogout ttf-fira-sans ttf-firecode-nerd otf-droid-nerd texlive-fontsextra
+    else
+        echo "Skipping dependency installation..."
+    fi
+fi
+
 
 # Oh My Zsh
 echo ""
