@@ -9,7 +9,7 @@ A lot of the heavy work was made by [Stephan Raabe](https://github.com/mylinuxfo
 Also a big thanks to [Ksawlii](https://github.com/Ksawlii) and [Thomas Brugman](https://github.com/Githubguy132010) for making the installation scripts! 💙
 
 ### Contents
-- [Required dependencies](https://github.com/PilkDrinker/PilkDots?tab=readme-ov-file#required dependencies)
+- [Required dependencies](https://github.com/PilkDrinker/PilkDots?tab=readme-ov-file#requireddependencies)
 - [Installation](https://github.com/PilkDrinker/PilkDots?tab=readme-ov-file#installation)
 - [Manual Installation](https://github.com/PilkDrinker/PilkDots?tab=readme-ov-file#manual-installation)
 - [Extra configuration](https://github.com/PilkDrinker/PilkDots?tab=readme-ov-file#extra-configuration)
