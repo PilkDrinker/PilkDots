@@ -85,8 +85,8 @@ if command_exists yay; then
     if ask_yn "Do you want to install required dependencies with yay (very recommended)?"; then
         yay -Syu \
             hyprland waybar waypaper swww rofi-wayland swaync python-pipx nemo kitty pavucontrol \
-            gtk2 gtk3 nwg-look fastfetch zsh nerd-fonts-complete networkmanager networkmanager-qt \
-            nm-connection-editor xcur2png gsettings-qt hyprshot wlogout ttf-fira-sans ttf-firecode-nerd \
+            gtk2 gtk3 nwg-look fastfetch zsh nerd-fonts-jetbrains-mono networkmanager networkmanager-qt \
+            nm-connection-editor xcur2png gsettings-qt hyprshot wlogout ttf-fira-sans ttf-firacode-nerd \
             otf-droid-nerd texlive-fontsextra || error_exit "Failed to install dependencies with yay"
     else
         echo "Skipping dependency installation..."
@@ -97,8 +97,8 @@ elif command_exists paru; then
     if ask_yn "Do you want to install required dependencies with paru (very recommended)?"; then
         paru -Syu \
             hyprland waybar waypaper swww rofi-wayland swaync python-pipx nemo kitty pavucontrol \
-            gtk2 gtk3 nwg-look fastfetch zsh nerd-fonts-complete networkmanager networkmanager-qt \
-            nm-connection-editor xcur2png gsettings-qt hyprshot wlogout ttf-fira-sans ttf-firecode-nerd \
+            gtk2 gtk3 nwg-look fastfetch zsh nerd-fonts-jetbrains-mono networkmanager networkmanager-qt \
+            nm-connection-editor xcur2png gsettings-qt hyprshot wlogout ttf-fira-sans ttf-firacode-nerd \
             otf-droid-nerd texlive-fontsextra || error_exit "Failed to install dependencies with paru"
     else
         echo "Skipping dependency installation..."
