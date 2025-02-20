@@ -52,6 +52,9 @@ Huge thanks to [Ksawlii](https://github.com/Ksawlii) and [Thomas Brugman](https:
 > [!NOTE]
 > This installation script is currently limited to Gentoo and Arch (and derivatives of Arch), and is not 100% done. Some features may need to be configured manually.
 
+> [!WARNING]
+> Do not run `yay` or `paru` as root. Running these AUR helpers as root can cause permanent damage to your system. Always run them as a regular user.
+
 # Manual Installation
 
 1. Install the dependencies with your preffered AUR helper:

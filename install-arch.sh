@@ -29,6 +29,11 @@ command_exists() {
     command -v "$1" &>/dev/null
 }
 
+# Check if the script is run as root and exit if true
+if [ "$EUID" -eq 0 ]; then
+    error_exit "This script should not be run as root. Please run it as a regular user."
+fi
+
 # Enable multilib if not already enabled
 if ! grep -q '^\[multilib\]' /etc/pacman.conf; then
     echo "Enabling multilib repository..."
