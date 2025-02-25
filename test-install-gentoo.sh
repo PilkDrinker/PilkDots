@@ -2,6 +2,10 @@
 
 # Test script for install-gentoo.sh
 
+# Initialize test counters
+FAILURES=0
+SUCCESSES=0
+
 # Mock functions to avoid actual system changes
 emerge() { echo "MOCK: emerge $*"; return 0; }
 eselect() { echo "MOCK: eselect $*"; return 0; }
@@ -214,12 +218,26 @@ run_tests() {
     source_functions
     echo "Running tests for install-gentoo.sh..."
     echo "====================================="
+    
+    # Run each test and track results
     test_ask_yn
+    [ $(grep -c "❌" <(test_ask_yn)) -eq 0 ] || ((FAILURES++))
+    
     test_ask_ny
+    [ $(grep -c "❌" <(test_ask_ny)) -eq 0 ] || ((FAILURES++))
+    
     test_ask_choice
+    [ $(grep -c "❌" <(test_ask_choice)) -eq 0 ] || ((FAILURES++))
+    
     test_menu_flow
+    [ $(grep -c "❌" <(test_menu_flow)) -eq 0 ] || ((FAILURES++))
+    
     echo "====================================="
     echo "Tests completed!"
+    echo "Failures: $FAILURES"
+    
+    # Exit with failure if any tests failed
+    [ $FAILURES -eq 0 ] || exit 1
 }
 
 # Run the tests

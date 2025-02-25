@@ -5,6 +5,10 @@
 # Source the original script with function overrides to prevent actual execution
 TEST_MODE=true
 
+# Initialize test counters
+FAILURES=0
+SUCCESSES=0
+
 # Mock functions to avoid actual system changes
 command_exists() {
     case "$1" in
@@ -121,11 +125,23 @@ run_tests() {
     source_functions
     echo "Running tests for install-arch.sh..."
     echo "====================================="
+    
+    # Run each test and track results
     test_ask_yn
+    [ $(grep -c "❌" <(test_ask_yn)) -eq 0 ] || ((FAILURES++))
+    
     test_error_exit
+    [ $(grep -c "❌" <(test_error_exit)) -eq 0 ] || ((FAILURES++))
+    
     test_command_exists
+    [ $(grep -c "❌" <(test_command_exists)) -eq 0 ] || ((FAILURES++))
+    
     echo "====================================="
     echo "Tests completed!"
+    echo "Failures: $FAILURES"
+    
+    # Exit with failure if any tests failed
+    [ $FAILURES -eq 0 ] || exit 1
 }
 
 # Run the tests

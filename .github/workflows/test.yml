@@ -75,14 +75,27 @@ jobs:
     
     - name: Run tests
       run: |
-        ./run-all-tests.sh | tee test_output.log
+        ./run-all-tests.sh > test_output.log 2>&1
+        echo "::group::Test Output"
+        cat test_output.log
+        echo "::endgroup::"
     
-    - name: Check test output
+    - name: Check test results
       run: |
-        # Check if tests completed
-        if grep -q "All tests completed" test_output.log; then
-          echo "✅ Tests ran successfully"
-        else
-          echo "⚠️ Tests did not complete properly"
+        FAILURES=$(grep -c "❌" test_output.log || true)
+        SUCCESSES=$(grep -c "✅" test_output.log || true)
+        echo "Found $SUCCESSES passed tests and $FAILURES failed tests"
+        
+        # Print test summary
+        echo "Test Summary:"
+        echo "-------------"
+        echo "Passed: $SUCCESSES"
+        echo "Failed: $FAILURES"
+        
+        if [ $FAILURES -gt 0 ]; then
+          echo "Failed tests:"
+          grep -B 1 "❌" test_output.log
           exit 1
+        else
+          echo "All tests passed successfully!"
         fi
