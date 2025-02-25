@@ -52,6 +52,9 @@ Huge thanks to [Ksawlii](https://github.com/Ksawlii) and [Thomas Brugman](https:
 > [!NOTE]
 > This installation script is currently limited to Gentoo and Arch (and derivatives of Arch), and is not 100% done. Some features may need to be configured manually.
 
+> [!WARNING]
+> Do not run `yay` or `paru` as root. Running these AUR helpers as root can cause permanent damage to your system. Always run them as a regular user.
+
 # Manual Installation
 
 1. Install the dependencies with your preffered AUR helper:
@@ -59,13 +62,13 @@ Huge thanks to [Ksawlii](https://github.com/Ksawlii) and [Thomas Brugman](https:
 For yay:
 
 ```
-yay -S hyprland wlogout waypaper waybar swww rofi-wayland swaync nemo kitty pavucontrol gtk3 gtk2 xcur2png gsettings nwg-look fastfetch zsh oh-my-zsh-git hyprshot networkmanager networkmanager-qt nm-connection-editor
+yay -S hyprland wlogout waypaper waybar swww rofi-wayland swaync nemo kitty pavucontrol gtk3 gtk2 xcur2png gsettings nwg-look fastfetch zsh oh-my-zsh-git hyprshot networkmanager networkmanager-qt nm-connection-editor ttf-firacode-nerd nerd-fonts-jetbrains-mono
 ```
 
 For paru:
 
 ```
-paru -S hyprland wlogout waypaper waybar swww rofi-wayland swaync nemo kitty pavucontrol gtk3 gtk2 xcur2png gsettings nwg-look fastfetch zsh oh-my-zsh-git hyprshot networkmanager networkmanager-qt nm-connection-editor
+paru -S hyprland wlogout waypaper waybar swww rofi-wayland swaync nemo kitty pavucontrol gtk3 gtk2 xcur2png gsettings nwg-look fastfetch zsh oh-my-zsh-git hyprshot networkmanager networkmanager-qt nm-connection-editor ttf-firacode-nerd nerd-fonts-jetbrains-mono
 ```
 
 2. Clone the repository with:
