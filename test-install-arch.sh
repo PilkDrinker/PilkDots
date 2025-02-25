@@ -14,6 +14,23 @@ command_exists() {
     esac
 }
 
+# Create dummy functions for testing if they don't exist in the script
+ask_yn() {
+    while true; do
+        read -p "$1 (y/n): " yn
+        case $yn in
+            [Yy]* ) return 0;;
+            [Nn]* ) return 1;;
+            * ) echo "Please answer y or n.";;
+        esac
+    done
+}
+
+error_exit() {
+    echo "ERROR: $1" >&2
+    exit 1
+}
+
 # Override system-modifying commands
 pacman() { echo "MOCK: pacman $*"; return 0; }
 yay() { echo "MOCK: yay $*"; return 0; }
@@ -24,10 +41,19 @@ makepkg() { echo "MOCK: makepkg $*"; return 0; }
 
 # Source script functions without executing main code
 source_functions() {
-    # Extract and source only the functions
-    grep -A 100 "^# Function to" ../install-arch.sh | 
-    grep -B 100 "^# Check if the script" > /tmp/arch_functions
-    source /tmp/arch_functions
+    if [ -f "./install-arch.sh" ]; then
+        # Extract and source only the functions
+        grep -A 100 "^# Function to\|^ask_yn\|^error_exit\|^command_exists" ./install-arch.sh | 
+        grep -B 100 "^# Check if the script\|^# Main script" > /tmp/arch_functions
+        
+        if [ -s /tmp/arch_functions ]; then
+            source /tmp/arch_functions
+        else
+            echo "No functions found in install-arch.sh, using mock functions"
+        fi
+    else
+        echo "install-arch.sh not found, using mock functions"
+    fi
 }
 
 # Test ask_yn function

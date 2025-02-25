@@ -1,12 +1,11 @@
+# Test temporary files
+/tmp/
+/tmp/arch_functions
+/tmp/gentoo_functions
+/tmp/gentoo_menu
+test_output.log
 
-
-
-
-
-
-
-
-
-
-
-*.swp*~*.bak# Backup files/tmp/test_output.log/tmp/gentoo_menu/tmp/gentoo_functions/tmp/arch_functions/tmp/# Test temporary files
+# Backup files
+*.bak
+*~
+*.swp
