@@ -18,6 +18,22 @@ ask_yn() {
     done
 }
 
+# Function to display an error message and exit
+error_exit() {
+    echo "Error: $1" >&2
+    exit 1
+}
+
+# Function to check if a command exists
+command_exists() {
+    command -v "$1" &>/dev/null
+}
+
+# Check if the script is run as root and exit if true
+if [ "$EUID" -eq 0 ]; then
+    error_exit "This script should not be run as root. Please run it as a regular user."
+fi
+
 # Enable multilib if not already enabled
 if ! grep -q '^\[multilib\]' /etc/pacman.conf; then
     echo "Enabling multilib repository..."
@@ -28,63 +44,70 @@ else
     sleep 2
     clear
 fi
+
 # Detect if yay is installed, if not, ask user if they want to install it + dependency installation.
-if ! pacman -Q yay &>/dev/null; then
+if ! command_exists yay; then
     echo "yay not detected, proceeding with install script..."
     if ask_yn "Do you want to install yay (AUR helper)?"; then
-    echo "Installing yay (AUR helper)..."
-    sudo pacman -Syu --needed base-devel git
-    git clone https://aur.archlinux.org/yay.git ~/yay
-    (cd ~/yay && makepkg -si)
-    rm -rf ~/yay
-    clear
-else
-    echo "yay detected, skipping installation and proceeding with dependency installation..."
-    sleep 2
-    clear
+        echo "Installing yay (AUR helper)..."
+        sudo pacman -Syu --needed base-devel git
+        git clone https://aur.archlinux.org/yay.git ~/yay
+        (cd ~/yay && makepkg -si) || error_exit "Failed to install yay"
+        rm -rf ~/yay
+        clear
+    else
+        echo "yay not detected, skipping installation and proceeding with dependency installation..."
+        sleep 2
+        clear
+    fi
+fi
+
+# Detect if paru is installed, if not, ask user if they want to install it + dependency installation.
+if ! command_exists paru; then
+    echo "paru not detected, proceeding with install script..."
+    if ask_yn "Do you want to install paru (AUR helper)? (You don't have to do this if you already installed yay)"; then
+        echo "Installing paru (AUR helper)..."
+        sudo pacman -Syu --needed base-devel git
+        git clone https://aur.archlinux.org/paru.git ~/paru
+        (cd ~/paru && makepkg -si) || error_exit "Failed to install paru"
+        rm -rf ~/paru
+        clear
+    else
+        echo "paru detected, skipping installation and proceeding with dependency installation..."
+        sleep 2
+        clear
+    fi
+fi
+
+# Install dependencies with yay or paru
+if command_exists yay; then
     echo ""
     if ask_yn "Do you want to install required dependencies with yay (very recommended)?"; then
         yay -Syu \
             hyprland waybar waypaper swww rofi-wayland swaync python-pipx nemo kitty pavucontrol \
-            gtk2 gtk3 nwg-look fastfetch zsh nerd-fonts-complete networkmanager networkmanager-qt \
-            nm-connection-editor xcur2png gsettings-qt hyprshot wlogout ttf-fira-sans ttf-firecode-nerd \
-            otf-droid-nerd texlive-fontsextra
+            gtk2 gtk3 nwg-look fastfetch zsh nerd-fonts-jetbrains-mono networkmanager networkmanager-qt \
+            nm-connection-editor xcur2png gsettings-qt hyprshot wlogout ttf-fira-sans ttf-firacode-nerd \
+            otf-droid-nerd texlive-fontsextra || error_exit "Failed to install dependencies with yay"
     else
         echo "Skipping dependency installation..."
         clear
     fi
-
-    # Detect if paru is installed, if not, ask user if they want to install it + dependency installation.
-    if ! pacman -Q paru &>/dev/null; then
-        echo "paru not detected, proceeding with install script..."
-        if ask_yn "Do you want to install paru (AUR helper)? (You dont have to do this if you already installed yay) "; then
-            echo "Installing paru (AUR helper)..."
-            sudo pacman -Syu --needed base-devel git
-            git clone https://aur.archlinux.org/paru.git ~/paru
-            (cd ~/paru && makepkg -si)
-            rm -rf ~/paru
-            clear
-        else
-            echo "paru detected, skipping installation and proceeding with dependency installation..."
-            sleep 2
-            clear
-            echo ""
-            if ask_yn "Do you want to install required dependencies with paru (very recommended)?"; then
-                paru -Syu \
-                    hyprland waybar waypaper swww rofi-wayland swaync python-pipx nemo kitty pavucontrol \
-                    gtk2 gtk3 nwg-look fastfetch zsh nerd-fonts-complete networkmanager networkmanager-qt \
-                    nm-connection-editor xcur2png gsettings-qt hyprshot wlogout ttf-fira-sans ttf-firecode-nerd \
-                    otf-droid-nerd texlive-fontsextra
-            else
-                echo "Skipping dependency installation..."
-                sleep 2
-                clear
-            fi
-        fi
+elif command_exists paru; then
+    echo ""
+    if ask_yn "Do you want to install required dependencies with paru (very recommended)?"; then
+        paru -Syu \
+            hyprland waybar waypaper swww rofi-wayland swaync python-pipx nemo kitty pavucontrol \
+            gtk2 gtk3 nwg-look fastfetch zsh nerd-fonts-jetbrains-mono networkmanager networkmanager-qt \
+            nm-connection-editor xcur2png gsettings-qt hyprshot wlogout ttf-fira-sans ttf-firacode-nerd \
+            otf-droid-nerd texlive-fontsextra || error_exit "Failed to install dependencies with paru"
+    else
+        echo "Skipping dependency installation..."
+        sleep 2
+        clear
     fi
+else
+    error_exit "Neither yay nor paru is installed. Please install one of them to proceed."
 fi
-fi
-
 
 # Oh My Zsh
 echo ""
@@ -92,7 +115,7 @@ if ask_yn "Do you want to install Oh My Zsh?"; then
     if [ -d "$HOME/.oh-my-zsh" ]; then
         echo "Oh My Zsh is already installed."
     else
-        sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+        sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" || error_exit "Failed to install Oh My Zsh"
     fi
 else
     echo "Skipping Oh My Zsh installation..."
@@ -119,6 +142,11 @@ copy_with_backup() {
     cp -rf "$src" "$dest"
 }
 
+# Check and create directories if they don't exist
+[ ! -d "$HOME/.config" ] && mkdir -p "$HOME/.config"
+[ ! -d "$HOME/.themes" ] && mkdir -p "$HOME/.themes"
+[ ! -d "$HOME/wallpaper" ] && mkdir -p "$HOME/wallpaper"
+
 echo "Backing up existing configurations to $BACKUP_DIR"
 copy_with_backup "$SCRIPT_DIR/.config/" "$HOME/.config/"
 copy_with_backup "$SCRIPT_DIR/.zshrc" "$HOME/.zshrc"
@@ -129,7 +157,7 @@ copy_with_backup "$SCRIPT_DIR/.themes/" "$HOME/.themes/"
 echo ""
 if ask_yn "Do you want to install Nerd Fonts (Recommended) (~8GB download)?"; then
     git clone --depth=1 https://github.com/ryanoasis/nerd-fonts.git ~/nerd-fonts
-    ~/nerd-fonts/install.sh
+    ~/nerd-fonts/install.sh || error_exit "Failed to install Nerd Fonts"
     rm -rf ~/nerd-fonts
 else
     echo "Skipping Nerd Fonts installation..."
