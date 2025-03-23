@@ -30,23 +30,14 @@ With Borders
 
 
  
-# Installation for Gentoo
-To run the installation script for Gentoo, copy and paste these commands in your terminal:
+# Installation for Arch and Gentoo
+To run the installation script for Gentoo and Gentoo, copy and paste these commands in your terminal:
 ```
 git clone https://github.com/PilkDrinker/PilkDots
 cd PilkDots
-sudo chmod +x ./install-gentoo.sh
-./install-gentoo.sh
+./install.sh
 ```
 
-# Installation for Arch
-To run the installation script for Arch or and arch-based distro like Manjaro, copy and paste these commands in your terminal:
-```
-git clone https://github.com/PilkDrinker/PilkDots
-cd PilkDots
-sudo chmod +x ./install-arch.sh
-./install-arch.sh
-```
 Huge thanks to [Ksawlii](https://github.com/Ksawlii) and [Thomas Brugman](https://github.com/Githubguy132010) for making these installtion scripts! <3
 
 > [!NOTE]
