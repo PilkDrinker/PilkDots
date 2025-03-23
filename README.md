@@ -31,7 +31,7 @@ With Borders
 
  
 # Installation for Arch and Gentoo
-To run the installation script for Gentoo and Gentoo, copy and paste these commands in your terminal:
+To run the installation script for Arch and Gentoo, copy and paste these commands in your terminal:
 ```
 git clone https://github.com/PilkDrinker/PilkDots
 cd PilkDots
