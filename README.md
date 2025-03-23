@@ -8,6 +8,9 @@ A lot of the heavy work was made by [Stephan Raabe](https://github.com/mylinuxfo
 
 Also a big thanks to [Ksawlii](https://github.com/Ksawlii) and [Thomas Brugman](https://github.com/Githubguy132010) for making the installation scripts! 💙
 
+> [!NOTE]
+> I no longer use hyprland, so if you find any issues with these dotfiles try resolving them yourself and/or make a pull request.
+
 ### Contents
 - [Automatic Installation for Arch](https://github.com/PilkDrinker/PilkDots?tab=readme-ov-file#installationforarch)
 - [Automatic Installation for Gentoo](https://github.com/PilkDrinker/PilkDots?tab=readme-ov-file#installationforgentoo)
