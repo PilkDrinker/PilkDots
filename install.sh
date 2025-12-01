@@ -83,7 +83,7 @@ case $choice in
     echo ""
     if ask_ny "Do you want to install dependencies (very recommended)?"; then
       yay -Syu --noconfirm --needed \
-      hyprland waybar rofi python-pipx alacritty xdg-desktop-portal \
+      hyprland hyprgrass waybar rofi python-pipx alacritty xdg-desktop-portal \
       gtk2 gtk3 nwg-look fastfetch zsh grim satty xdg-desktop-portal-gtk swaybg ttf-firacode-nerd  \
       xcur2png gsettings-qt slurp wlogout thunar neovim wl-clipboard xdg-desktop-portal-wlr nerd-fonts-jetbrains-mono \
     else
